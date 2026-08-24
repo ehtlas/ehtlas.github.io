@@ -1,7 +1,3 @@
----
-icon: lucide/castle
----
-
 # Disney Parks
 
 ## 어트랙션

@@ -1,7 +1,3 @@
----
-icon: lucide/ferris-wheel
----
-
 # Orlando Resort
 
 ## 티켓

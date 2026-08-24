@@ -108,8 +108,8 @@ hide:
 
 <span id="tokyo-disney-resort"></span>**Tokyo Disney Resort**
 
-- <span id="tokyo-disneyland"></span>Tokyo Disneyland
-- <span id="tokyo-disneysea"></span>Tokyo DisneySea
+- <span id="tokyo-disneyland"></span>[Tokyo Disneyland](theme-parks/disney/tokyo-disneyland.md){ .park-detail-link }
+- <span id="tokyo-disneysea"></span>[Tokyo DisneySea](theme-parks/disney/tokyo-disneysea.md){ .park-detail-link }
 
 </div>
 
@@ -135,6 +135,8 @@ hide:
 
 <span id="universal-orlando"></span>**[Orlando Resort](theme-parks/universal/universal-orlando-resort.md){ .park-detail-link }**
 
+- <span id="studios-florida"></span>Studios Florida
+- <span id="islands-of-adventure"></span>Islands of Adventure
 - <span id="epic-universe"></span>Epic Universe
 
 </div>

@@ -1,7 +1,3 @@
----
-icon: lucide/ferris-wheel
----
-
 # Universal Beijing Resort
 
 ## 어트랙션

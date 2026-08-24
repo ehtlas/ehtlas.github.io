@@ -1,7 +1,3 @@
----
-icon: lucide/castle
----
-
 # Hong Kong Disneyland
 
 ## 어트랙션

@@ -1,7 +1,3 @@
----
-icon: lucide/ferris-wheel
----
-
 # Universal Studios
 
 ## 어트랙션

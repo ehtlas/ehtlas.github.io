@@ -1,7 +1,3 @@
----
-icon: lucide/castle
----
-
 # Walt Disney World
 
 ## 파크

@@ -1,7 +1,3 @@
----
-icon: lucide/castle
----
-
 # Shanghai Disneyland
 
 ## 어트랙션

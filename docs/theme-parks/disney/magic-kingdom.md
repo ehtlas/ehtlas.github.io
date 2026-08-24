@@ -1,7 +1,3 @@
----
-icon: lucide/castle
----
-
 # Magic Kingdom
 
 ## 어트랙션
