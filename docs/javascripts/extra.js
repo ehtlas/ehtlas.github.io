@@ -20,6 +20,25 @@ function enableHeaderHomeLink() {
   });
 }
 
+function configurePrimaryNavigation() {
+  const alwaysOpenLabels = new Set(["장소", "테마파크"]);
+  const sections = document.querySelectorAll(
+    ".md-nav--primary > .md-nav__list > .md-nav__item--section",
+  );
+
+  sections.forEach((section) => {
+    const label = section.querySelector(":scope > .md-nav__link");
+    const name = label?.textContent.trim();
+
+    section.classList.toggle("nav-section--always-open", alwaysOpenLabels.has(name));
+
+    if (name === "기록") {
+      const toggle = section.querySelector(":scope > .md-nav__toggle");
+      if (toggle) toggle.checked = false;
+    }
+  });
+}
+
 let masonryTimer;
 
 function layoutCardGrids() {
@@ -52,6 +71,7 @@ function schedulePlaceGridLayout() {
 }
 
 enableHeaderHomeLink();
+configurePrimaryNavigation();
 schedulePlaceGridLayout();
 
 if (!window.placeGridResizeReady) {
@@ -66,6 +86,7 @@ if (document.fonts) {
 if (typeof document$ !== "undefined") {
   document$.subscribe(() => {
     enableHeaderHomeLink();
+    configurePrimaryNavigation();
     schedulePlaceGridLayout();
   });
 }

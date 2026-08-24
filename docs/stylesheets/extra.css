@@ -87,6 +87,34 @@
 
 .park-group ul { margin-top: .55rem; }
 
+.park-detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  color: var(--md-default-fg-color) !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .18s ease, transform .18s ease;
+}
+
+.park-detail-link::after {
+  content: "→";
+  color: var(--travel-accent);
+  font-size: 1.05em;
+  opacity: .8;
+  transition: transform .18s ease;
+}
+
+.park-detail-link:hover,
+.park-detail-link:focus-visible {
+  color: var(--travel-accent) !important;
+}
+
+.park-detail-link:hover::after,
+.park-detail-link:focus-visible::after {
+  transform: translateX(.18rem);
+}
+
 #travel-map {
   width: 100%;
   height: clamp(20rem, 52vw, 28rem);
@@ -144,7 +172,7 @@
 }
 
 @media screen and (max-width: 76.234375em) {
-  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav {
+  .md-nav--primary > .md-nav__list > .nav-section--always-open > .md-nav {
     position: static !important;
     display: block !important;
     width: auto;
@@ -155,27 +183,16 @@
     transition: none;
   }
 
-  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link {
+  .md-nav--primary > .md-nav__list > .nav-section--always-open > .md-nav__link {
     pointer-events: none;
   }
 
-  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link > .md-nav__icon {
+  .md-nav--primary > .md-nav__list > .nav-section--always-open > .md-nav__link > .md-nav__icon {
     display: none;
   }
 
-  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav > .md-nav__title {
+  .md-nav--primary > .md-nav__list > .nav-section--always-open > .md-nav > .md-nav__title {
     display: none;
   }
 
-  .md-nav--primary nav[data-md-level="1"] nav[data-md-level="2"] {
-    display: none !important;
-  }
-
-  .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link {
-    pointer-events: none;
-  }
-
-  .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link > .md-nav__icon {
-    display: none;
-  }
 }

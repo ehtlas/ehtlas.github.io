@@ -111,7 +111,7 @@ hide:
 
 - <span id="universal-hollywood"></span>Universal Studios Hollywood
 - <span id="universal-japan"></span>Universal Studios Japan
-- <span id="universal-singapore"></span>Universal Studios Singapore
+- <span id="universal-singapore"></span>[Universal Studios Singapore](theme-parks/universal/universal-studios-singapore.md){ .park-detail-link }
 - <span id="universal-beijing"></span>Universal Beijing Resort
 
 </article>
