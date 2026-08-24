@@ -22,12 +22,26 @@
   opacity: .8;
 }
 
+/* 스크롤 위치와 관계없이 헤더에는 사이트 이름만 표시합니다. */
+.md-header__title--active .md-header__topic:first-child {
+  transform: none;
+}
+
+.md-header__topic[data-md-component="header-topic"] {
+  display: none;
+}
+
 .destination-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
   gap: 1rem;
   margin: 1rem 0 2rem;
+}
+
+.place-grid,
+.history-grid {
+  grid-auto-flow: dense;
 }
 
 .destination-card {
@@ -73,11 +87,43 @@
 
 .park-group ul { margin-top: .55rem; }
 
-.featured-card {
-  border-color: color-mix(in srgb, var(--travel-accent) 45%, transparent);
-  background: linear-gradient(145deg, color-mix(in srgb, var(--travel-accent) 9%, var(--md-default-bg-color)), var(--md-default-bg-color));
-}
-
 @media screen and (max-width: 44.984375em) {
   .destination-grid { grid-template-columns: 1fr; }
+}
+
+@media screen and (max-width: 76.234375em) {
+  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav {
+    position: static !important;
+    display: block !important;
+    width: auto;
+    background: transparent;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    transition: none;
+  }
+
+  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link {
+    pointer-events: none;
+  }
+
+  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link > .md-nav__icon {
+    display: none;
+  }
+
+  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav > .md-nav__title {
+    display: none;
+  }
+
+  .md-nav--primary nav[data-md-level="1"] nav[data-md-level="2"] {
+    display: none !important;
+  }
+
+  .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link {
+    pointer-events: none;
+  }
+
+  .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link > .md-nav__icon {
+    display: none;
+  }
 }
