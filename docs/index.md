@@ -39,7 +39,7 @@ hide:
 
 ### 🇸🇬 싱가포르
 
-- <span id="singapore"></span>싱가포르 (28.winter)
+- <span id="singapore"></span>[싱가포르 (28.winter)](places/singapore/singapore.md){ .park-detail-link }
 
 </article>
 
@@ -76,8 +76,8 @@ hide:
 
 - <span id="magic-kingdom"></span>Magic Kingdom
 - <span id="epcot"></span>EPCOT
-- <span id="hollywood-studios"></span>Disney's Hollywood Studios
-- <span id="animal-kingdom"></span>Disney's Animal Kingdom
+- <span id="hollywood-studios"></span>Hollywood Studios
+- <span id="animal-kingdom"></span>Animal Kingdom
 
 </div>
 
@@ -101,18 +101,18 @@ hide:
 
 <div class="park-group" markdown>
 
-<span id="universal-orlando"></span>**Universal Orlando Resort**
+<span id="universal-orlando"></span>**Orlando Resort**
 
-- <span id="universal-studios-florida"></span>Universal Studios Florida
-- <span id="islands-of-adventure"></span>Universal Islands of Adventure
-- <span id="epic-universe"></span>Universal Epic Universe
+- <span id="universal-studios-florida"></span>Studios Florida
+- <span id="islands-of-adventure"></span>Islands of Adventure
+- <span id="epic-universe"></span>Epic Universe
 
 </div>
 
-- <span id="universal-hollywood"></span>Universal Studios Hollywood
-- <span id="universal-japan"></span>Universal Studios Japan
-- <span id="universal-singapore"></span>[Universal Studios Singapore](theme-parks/universal/universal-studios-singapore.md){ .park-detail-link }
-- <span id="universal-beijing"></span>Universal Beijing Resort
+- <span id="universal-hollywood"></span>Studios Hollywood
+- <span id="universal-japan"></span>Studios Japan
+- <span id="universal-singapore"></span>[Studios Singapore](theme-parks/universal/universal-studios-singapore.md){ .park-detail-link }
+- <span id="universal-beijing"></span>Beijing Resort
 
 </article>
 
@@ -131,6 +131,95 @@ hide:
 # 기록
 
 <div class="destination-grid history-grid" markdown>
+
+<article class="destination-card" markdown>
+
+### <span id="history-2004"></span>2004
+
+<div class="park-group" markdown>
+
+**🇺🇸 캘리포니아**
+
+- 샌프란시스코
+- 로스앤젤레스
+
+</div>
+
+<div class="park-group" markdown>
+
+**🇺🇸 플로리다**
+
+- 올랜도
+
+</div>
+
+</article>
+
+<article class="destination-card" markdown>
+
+### <span id="history-2005"></span>2005
+
+**🇨🇳 중국**
+
+- 베이징
+- 상하이
+- 항저우
+- 쑤저우
+
+</article>
+
+<article class="destination-card" markdown>
+
+### <span id="history-2006"></span>2006
+
+**🇳🇿 뉴질랜드**
+
+- 오클랜드
+
+</article>
+
+<article class="destination-card" markdown>
+
+### <span id="history-2010"></span>2010
+
+<div class="park-group" markdown>
+
+**🇺🇸 테네시**
+
+- 녹스빌
+
+</div>
+
+<div class="park-group" markdown>
+
+**🇺🇸 조지아**
+
+- 애틀랜타
+
+</div>
+
+</article>
+
+<article class="destination-card" markdown>
+
+### <span id="history-2011"></span>2011
+
+**🇦🇺 호주**
+
+- 시드니
+- 멜버른
+
+</article>
+
+<article class="destination-card" markdown>
+
+### <span id="history-2012"></span>2012
+
+**🇺🇸 캘리포니아**
+
+- 어바인
+
+</article>
 
 <article class="destination-card" markdown>
 
@@ -168,7 +257,7 @@ hide:
 - 🇳🇱 암스테르담
 - 🇳🇱 로테르담
 - 🇧🇪 브뤼셀
-- 🇧🇪 브뤼허
+- 🇧🇪 브뤼헤
 - 🇱🇺 룩셈부르크
 - 🇭🇺 부다페스트
 - 🇦🇹 빈

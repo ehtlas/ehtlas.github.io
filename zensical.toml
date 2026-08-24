@@ -25,7 +25,7 @@ nav = [
       { "삿포로" = "index.md#sapporo" },
     ] },
     { "싱가포르" = [
-      { "싱가포르 (28.winter)" = "index.md#singapore" },
+      { "싱가포르 (28.winter)" = "places/singapore/singapore.md" },
     ] },
     { "중국" = [
       { "상하이" = "index.md#shanghai" },
@@ -68,6 +68,12 @@ nav = [
     ] },
   ] },
   { "기록" = [
+    { "2004 · 미국" = "index.md#history-2004" },
+    { "2005 · 중국" = "index.md#history-2005" },
+    { "2006 · 뉴질랜드" = "index.md#history-2006" },
+    { "2010 · 테네시 / 조지아" = "index.md#history-2010" },
+    { "2011 · 호주" = "index.md#history-2011" },
+    { "2012 · 캘리포니아" = "index.md#history-2012" },
     { "2013 · 일본" = "index.md#history-2013" },
     { "2013–2014 · 유럽" = "index.md#history-2013-2014" },
     { "2016 · 유럽" = "index.md#history-2016" },
@@ -95,7 +101,7 @@ extra_javascript = [
 [project.theme]
 # variant = "classic"
 # custom_dir = "overrides"
-# favicon = "images/favicon.png"
+favicon = "assets/favicon.svg"
 language = "ko"
 features = [
   "announce.dismiss",
