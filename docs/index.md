@@ -66,13 +66,13 @@ hide:
 <span id="disneyland-resort"></span>**Disneyland Resort**
 
 - <span id="disneyland-park"></span>Disneyland Park
-- <span id="california-adventure"></span>Disney California Adventure
+- <span id="california-adventure"></span>California Adventure
 
 </div>
 
 <div class="park-group" markdown>
 
-<span id="walt-disney-world"></span>**Walt Disney World**
+<span id="walt-disney-world"></span>**[Walt Disney World](theme-parks/disney/walt-disney-world.md){ .park-detail-link }**
 
 - <span id="magic-kingdom"></span>Magic Kingdom
 - <span id="epcot"></span>EPCOT

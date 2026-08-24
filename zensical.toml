@@ -35,13 +35,15 @@ nav = [
     { "Disney Parks" = [
       { "Disneyland Resort" = [
         { "Disneyland Park" = "index.md#disneyland-park" },
-        { "Disney California Adventure" = "index.md#california-adventure" },
+        { "California Adventure" = "index.md#california-adventure" },
       ] },
       { "Walt Disney World" = [
+        { "Overview" = "theme-parks/disney/walt-disney-world.md" },
+        { "Tickets" = "theme-parks/disney/walt-disney-world-tickets.md" },
         { "Magic Kingdom" = "index.md#magic-kingdom" },
         { "EPCOT" = "index.md#epcot" },
-        { "Disney's Hollywood Studios" = "index.md#hollywood-studios" },
-        { "Disney's Animal Kingdom" = "index.md#animal-kingdom" },
+        { "Hollywood Studios" = "index.md#hollywood-studios" },
+        { "Animal Kingdom" = "index.md#animal-kingdom" },
       ] },
       { "Tokyo Disney Resort" = [
         { "Tokyo Disneyland" = "index.md#tokyo-disneyland" },
