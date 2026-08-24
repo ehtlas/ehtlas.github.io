@@ -21,7 +21,10 @@
 | 싱 온 투어 |  |
 | 룹디 두프 스핀 |  |
 | 라이트! 카메라! 액션! |  |
+| 호그와트 성의 야간 라이트 쇼 | ✓ |
 
 </div>
 
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 25, 2026 at 02:52 (KST)"></span>

@@ -141,3 +141,5 @@ icon: lucide/map-pin
 - [또떠남 - 호텔 추천](https://youtu.be/w9JyrFl11tU?si=zyNIzQOKPoiSe1Bp)
 
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 25, 2026 at 01:43 (KST)"></span>

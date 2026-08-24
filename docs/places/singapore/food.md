@@ -19,3 +19,5 @@ icon: lucide/utensils
 - 🍊 **착즙 오렌지 주스:** 곳곳의 자동판매기에서 바로 착즙해 판매하는 주스
 
 [:lucide-arrow-left: 싱가포르 페이지로 돌아가기](singapore.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 23:16 (KST)"></span>

@@ -88,6 +88,10 @@ function showLastUpdatedTime() {
   const content = document.querySelector(".md-content__inner");
   if (!content) return;
 
+  const source = content.querySelector(".page-updated-source");
+  const pageUpdatedTime = source?.dataset.updated;
+  if (!pageUpdatedTime) return;
+
   let updated = content.querySelector(".page-updated");
   if (!updated) {
     updated = document.createElement("p");
@@ -95,7 +99,8 @@ function showLastUpdatedTime() {
     content.append(updated);
   }
 
-  updated.textContent = "Last updated: August 25, 2026 at 02:32 (KST)";
+  updated.textContent = `Last updated: ${pageUpdatedTime}`;
+  source.remove();
 }
 
 const exchangeCurrencies = ["USD", "EUR", "CHF", "JPY", "CNY", "SGD"];

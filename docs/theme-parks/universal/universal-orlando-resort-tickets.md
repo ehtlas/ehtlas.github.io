@@ -71,3 +71,5 @@ Epic Universe는 기존 두 파크보다 1일권 가격이 조금 더 높습니�
 [Universal Orlando Resort 공식 티켓](https://www.universalorlando.com/web/en/us/tickets-packages/park-tickets){ .park-detail-link }
 
 [:lucide-arrow-left: Orlando Resort로 돌아가기](universal-orlando-resort.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 25, 2026 at 00:00 (KST)"></span>

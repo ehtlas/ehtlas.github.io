@@ -105,3 +105,5 @@ SKAI처럼 높은 곳에서 내려다보는 전망이 아니라 **마리나 베�
 | **추천 목적** | 전망 + 애프터눈 티 | 여유로운 애프터눈 티 | 선셋 + 야경 + 칵테일 |
 
 [:lucide-arrow-left: 싱가포르 페이지로 돌아가기](singapore.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 23:16 (KST)"></span>

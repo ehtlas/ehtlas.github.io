@@ -25,8 +25,13 @@
 | 크리스탈 그로토의 항해 | Shanghai |
 | 원스 어폰 어 타임 어드벤처 | Shanghai |
 | 겨울왕국: 싱 어롱 셀러브레이션 | Shanghai |
-| 월트 디즈니 월드 철도 (Walt Disney World Railroad) | Magic Kingdom |
+| 일루미네이트! 어 나이트타임 셀러브레이션 | Shanghai |
+| 바운드 바이 다크니스 | Shanghai |
+| 월트 디즈니 월드 철도 | Magic Kingdom |
+| Wishes: A Magical Gathering of Disney Dreams | Magic Kingdom |
 
 </div>
 
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 25, 2026 at 02:52 (KST)"></span>

@@ -5,7 +5,7 @@ icon: lucide/map-pin
 # 2026 유럽
 
 - **Day 1:** 취리히 도착
-- **Day 2:** 샤프하우젠 ➔ 🇩🇪 징겐 ➔ 루체른
+- **Day 2:** 샤프하우젠 ➔ 징겐 ➔ 루체른
 - **Day 3:** 루체른 ➔ 리기산 ➔ 인터라켄
 - **Day 4:** 인터라켄 ➔ 융프라우
 - **Day 5:** 인터라켄 ➔ 체르마트 ➔ 5호수 트레킹
@@ -15,3 +15,5 @@ icon: lucide/map-pin
 - **Day 9:** 뮌헨
 
 [:lucide-compass: 홈](../index.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 25, 2026 at 02:53 (KST)"></span>

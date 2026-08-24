@@ -43,3 +43,5 @@ City Hall역에서 **실내 연결 통로**를 이용할 수 있어 캐리어가
 [Changi Airport — Transport & Directions](https://www.changiairport.com/en/at-changi/transport-and-directions.html){ .park-detail-link }
 
 [:lucide-arrow-left: 싱가포르 페이지로 돌아가기](singapore.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 22:55 (KST)"></span>

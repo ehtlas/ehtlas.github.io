@@ -32,3 +32,5 @@
 - [또떠남 - 호텔 추천](https://youtu.be/w9JyrFl11tU?si=zyNIzQOKPoiSe1Bp)
 
 [:lucide-arrow-left: 싱가포르 페이지](singapore.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 22:55 (KST)"></span>

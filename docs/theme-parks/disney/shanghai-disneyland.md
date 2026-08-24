@@ -1,6 +1,6 @@
 # Shanghai Disneyland
 
-## 어트랙션
+## 5. 어트랙션
 
 <div class="attraction-table" markdown>
 
@@ -29,7 +29,14 @@
 | 판타지아 회전목마 |  |
 | 하늘을 나는 덤보 |  |
 | 겨울왕국: 싱 어롱 셀러브레이션 | ✓ |
+| 일루미네이트! 어 나이트타임 셀러브레이션[^illuminate] | ✓ |
+| 바운드 바이 다크니스[^bound-by-darkness] | ✓ |
 
 </div>
 
+[^illuminate]: **ILLUMINATE! A Nighttime Celebration.** 엔찬티드 스토리북 캐슬을 배경으로 디즈니·픽사·마블 음악과 함께 펼쳐지는 메인 프로젝션 매핑 & 불꽃 쇼.
+[^bound-by-darkness]: **Bound by Darkness.** 할로윈 시즌 한정으로 메인 쇼 직후 진행되는 불꽃 쇼. 말레피센트, 우르술라 등 디즈니 빌런들이 등장하여 강렬한 음악과 붉은·보랏빛 조명, 레이저, 특수 불꽃을 연출.
+
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 25, 2026 at 02:52 (KST)"></span>

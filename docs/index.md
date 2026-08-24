@@ -467,3 +467,5 @@ hide:
 # 지도 { #visited-map }
 
 <div id="travel-map" aria-label="방문한 도시 지도"></div>
+
+<span class="page-updated-source" data-updated="August 25, 2026 at 02:33 (KST)"></span>

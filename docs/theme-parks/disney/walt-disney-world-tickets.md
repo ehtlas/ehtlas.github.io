@@ -160,3 +160,5 @@ Walt Disney World Resort에는 총 **4개의 메인 테마파크**가 있습니�
 가격을 실제 방문 날짜 기준으로 비교하는 것이 좋습니다.
 
 [:lucide-arrow-left: Walt Disney World로 돌아가기](walt-disney-world.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 23:36 (KST)"></span>

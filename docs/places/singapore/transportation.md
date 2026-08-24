@@ -120,3 +120,5 @@ MRT / LRT 및 일반 버스는 이동 거리에 따라 요금이 결정된다.
 MRT와 버스의 1회 요금 자체가 비교적 저렴하기 때문에 이동 횟수가 많지 않다면 **Singapore Tourist Pass보다 실제 사용한 만큼 결제하는 방식이 유리할 수 있다.**
 
 [:lucide-arrow-left: 싱가포르 페이지로 돌아가기](singapore.md){ .home-return-link }
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 22:55 (KST)"></span>

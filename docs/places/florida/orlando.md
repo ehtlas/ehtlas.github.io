@@ -14,3 +14,5 @@ icon: lucide/map-pin
 - 추천 일정과 예상 경비
 
 [← 장소 목록으로 돌아가기](../../../index.md)
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 18:36 (KST)"></span>

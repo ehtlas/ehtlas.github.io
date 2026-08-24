@@ -109,3 +109,5 @@ to create a line break.
 
 Or use a blank line for a new paragraph.
 ```
+
+<span class="page-updated-source" data-updated="August 24, 2026 at 18:36 (KST)"></span>
