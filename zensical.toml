@@ -36,6 +36,7 @@ nav = [
   ] },
   { "테마파크" = [
     { "Disney Parks" = [
+      { "Overview" = "theme-parks/disney/disney-parks.md" },
       { "Disneyland Resort" = [
         { "Disneyland Park" = "index.md#disneyland-park" },
         { "California Adventure" = "index.md#california-adventure" },
@@ -43,7 +44,7 @@ nav = [
       { "Walt Disney World" = [
         { "Overview" = "theme-parks/disney/walt-disney-world.md" },
         { "Tickets" = "theme-parks/disney/walt-disney-world-tickets.md" },
-        { "Magic Kingdom" = "index.md#magic-kingdom" },
+        { "Magic Kingdom" = "theme-parks/disney/magic-kingdom.md" },
         { "EPCOT" = "index.md#epcot" },
         { "Hollywood Studios" = "index.md#hollywood-studios" },
         { "Animal Kingdom" = "index.md#animal-kingdom" },
@@ -52,21 +53,24 @@ nav = [
         { "Tokyo Disneyland" = "index.md#tokyo-disneyland" },
         { "Tokyo DisneySea" = "index.md#tokyo-disneysea" },
       ] },
-      { "Hong Kong Disneyland" = "index.md#hong-kong-disneyland" },
-      { "Shanghai Disneyland" = "index.md#shanghai-disneyland" },
+      { "Disneyland Paris" = [
+        { "Disneyland Park" = "index.md#disneyland-park-paris" },
+        { "Disney Adventure World" = "index.md#disney-adventure-world" },
+      ] },
+      { "Hong Kong Disneyland" = "theme-parks/disney/hong-kong-disneyland.md" },
+      { "Shanghai Disneyland" = "theme-parks/disney/shanghai-disneyland.md" },
     ] },
     { "Universal Studios" = [
+      { "Overview" = "theme-parks/universal/universal-studios.md" },
       { "Universal Orlando Resort" = [
         { "Overview" = "theme-parks/universal/universal-orlando-resort.md" },
         { "Tickets" = "theme-parks/universal/universal-orlando-resort-tickets.md" },
-        { "Universal Studios Florida" = "index.md#universal-studios-florida" },
-        { "Universal Islands of Adventure" = "index.md#islands-of-adventure" },
         { "Universal Epic Universe" = "index.md#epic-universe" },
       ] },
-      { "Universal Studios Hollywood" = "index.md#universal-hollywood" },
-      { "Universal Studios Japan" = "index.md#universal-japan" },
+      { "Universal Studios Hollywood" = "theme-parks/universal/universal-studios-hollywood.md" },
+      { "Universal Studios Japan" = "theme-parks/universal/universal-studios-japan.md" },
       { "Universal Studios Singapore" = "theme-parks/universal/universal-studios-singapore.md" },
-      { "Universal Beijing Resort" = "index.md#universal-beijing" },
+      { "Universal Beijing Resort" = "theme-parks/universal/universal-beijing-resort.md" },
     ] },
     { "Others" = [
       { "Warner Bros. Studio Tour Tokyo" = "index.md#warner-bros-tokyo" },

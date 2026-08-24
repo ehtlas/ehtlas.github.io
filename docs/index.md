@@ -82,7 +82,7 @@ hide:
 
 <article class="destination-card" markdown>
 
-### :material-castle: Disney Parks
+### :material-castle: [Disney Parks](theme-parks/disney/disney-parks.md){ .park-detail-link }
 
 <div class="park-group" markdown>
 
@@ -97,7 +97,7 @@ hide:
 
 <span id="walt-disney-world"></span>**[Walt Disney World](theme-parks/disney/walt-disney-world.md){ .park-detail-link }**
 
-- <span id="magic-kingdom"></span>Magic Kingdom
+- <span id="magic-kingdom"></span>[Magic Kingdom](theme-parks/disney/magic-kingdom.md){ .park-detail-link }
 - <span id="epcot"></span>EPCOT
 - <span id="hollywood-studios"></span>Hollywood Studios
 - <span id="animal-kingdom"></span>Animal Kingdom
@@ -113,29 +113,36 @@ hide:
 
 </div>
 
-- <span id="hong-kong-disneyland"></span>Hong Kong Disneyland
-- <span id="shanghai-disneyland"></span>Shanghai Disneyland
+<div class="park-group" markdown>
+
+<span id="disneyland-paris"></span>**Disneyland Paris**
+
+- <span id="disneyland-park-paris"></span>Disneyland Park
+- <span id="disney-adventure-world"></span>Disney Adventure World
+
+</div>
+
+- <span id="hong-kong-disneyland"></span>[Hong Kong Disneyland](theme-parks/disney/hong-kong-disneyland.md){ .park-detail-link }
+- <span id="shanghai-disneyland"></span>[Shanghai Disneyland](theme-parks/disney/shanghai-disneyland.md){ .park-detail-link }
 
 </article>
 
 <article class="destination-card" markdown>
 
-### :material-movie-open: Universal Studios { #universal-parks }
+### :material-movie-open: [Universal Studios](theme-parks/universal/universal-studios.md){ .park-detail-link #universal-parks }
 
 <div class="park-group" markdown>
 
 <span id="universal-orlando"></span>**[Orlando Resort](theme-parks/universal/universal-orlando-resort.md){ .park-detail-link }**
 
-- <span id="universal-studios-florida"></span>Studios Florida
-- <span id="islands-of-adventure"></span>Islands of Adventure
 - <span id="epic-universe"></span>Epic Universe
 
 </div>
 
-- <span id="universal-hollywood"></span>Studios Hollywood
-- <span id="universal-japan"></span>Studios Japan
+- <span id="universal-hollywood"></span>[Studios Hollywood](theme-parks/universal/universal-studios-hollywood.md){ .park-detail-link }
+- <span id="universal-japan"></span>[Studios Japan](theme-parks/universal/universal-studios-japan.md){ .park-detail-link }
 - <span id="universal-singapore"></span>[Studios Singapore](theme-parks/universal/universal-studios-singapore.md){ .park-detail-link }
-- <span id="universal-beijing"></span>Beijing Resort
+- <span id="universal-beijing"></span>[Beijing Resort](theme-parks/universal/universal-beijing-resort.md){ .park-detail-link }
 
 </article>
 

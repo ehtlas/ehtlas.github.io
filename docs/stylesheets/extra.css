@@ -297,6 +297,61 @@
   text-align: right;
 }
 
+.attraction-table {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--travel-accent) 25%, var(--md-default-fg-color--lightest));
+  border-radius: 1rem;
+  box-shadow: 0 .35rem 1.2rem rgba(23, 75, 79, .08);
+}
+
+.attraction-table .md-typeset__scrollwrap {
+  margin: 0;
+}
+
+.attraction-table .md-typeset__table {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.attraction-table table:not([class]) {
+  display: table;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 1rem;
+}
+
+.attraction-table table:not([class]) th {
+  padding: .8rem 1rem;
+  color: var(--travel-accent);
+  background: color-mix(in srgb, var(--travel-accent) 10%, var(--md-default-bg-color));
+  border-bottom: 1px solid color-mix(in srgb, var(--travel-accent) 24%, var(--md-default-fg-color--lightest));
+}
+
+.attraction-table table:not([class]) td {
+  padding: .68rem 1rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+}
+
+.attraction-table table:not([class]) tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.attraction-table table:not([class]) tbody tr:hover td {
+  background: color-mix(in srgb, var(--travel-accent) 5%, var(--md-default-bg-color));
+}
+
+.attraction-table table:not([class]) td:last-child:not(:empty) {
+  color: var(--travel-accent);
+  font-size: 1.05em;
+  font-weight: 700;
+}
+
 #travel-map {
   position: relative;
   z-index: 0;
