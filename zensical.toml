@@ -12,58 +12,59 @@ site_description = "여행 준비에 필요한 정보를 한곳에 정리한 여
 nav = [
   { "홈" = "index.md" },
   { "장소" = [
-    { "일본" = [
-      { "도쿄" = "places/japan/tokyo.md" },
-      { "오사카" = "places/japan/osaka.md" },
-      { "나고야 (27.summer)" = "places/japan/nagoya.md" },
-    ] },
     { "캘리포니아" = [
       { "로스앤젤레스" = "places/california/los-angeles.md" },
     ] },
     { "플로리다" = [
       { "올랜도" = "places/florida/orlando.md" },
     ] },
-    { "중국" = [
-      { "상하이" = "index.md#shanghai" },
+    { "일본" = [
+      { "도쿄" = "places/japan/tokyo.md" },
+      { "오사카" = "places/japan/osaka.md" },
+      { "나고야 (27.summer)" = "places/japan/nagoya.md" },
+      { "삿포로" = "index.md#sapporo" },
     ] },
     { "싱가포르" = [
       { "싱가포르 (28.winter)" = "index.md#singapore" },
     ] },
+    { "중국" = [
+      { "상하이" = "index.md#shanghai" },
+    ] },
   ] },
   { "테마파크" = [
     { "Disney Parks" = [
-      { "디즈니랜드 리조트" = [
-        { "디즈니랜드 파크" = "index.md#disneyland-park" },
-        { "디즈니 캘리포니아 어드벤처" = "index.md#california-adventure" },
+      { "Disneyland Resort" = [
+        { "Disneyland Park" = "index.md#disneyland-park" },
+        { "Disney California Adventure" = "index.md#california-adventure" },
       ] },
-      { "월트 디즈니 월드" = [
-        { "매직 킹덤" = "index.md#magic-kingdom" },
-        { "엡콧" = "index.md#epcot" },
-        { "할리우드 스튜디오" = "index.md#hollywood-studios" },
-        { "애니멀 킹덤" = "index.md#animal-kingdom" },
+      { "Walt Disney World" = [
+        { "Magic Kingdom" = "index.md#magic-kingdom" },
+        { "EPCOT" = "index.md#epcot" },
+        { "Disney's Hollywood Studios" = "index.md#hollywood-studios" },
+        { "Disney's Animal Kingdom" = "index.md#animal-kingdom" },
       ] },
-      { "도쿄 디즈니 리조트" = [
-        { "도쿄 디즈니랜드" = "index.md#tokyo-disneyland" },
-        { "도쿄 디즈니씨" = "index.md#tokyo-disneysea" },
+      { "Tokyo Disney Resort" = [
+        { "Tokyo Disneyland" = "index.md#tokyo-disneyland" },
+        { "Tokyo DisneySea" = "index.md#tokyo-disneysea" },
       ] },
-      { "홍콩 디즈니랜드" = "index.md#hong-kong-disneyland" },
-      { "상하이 디즈니랜드" = "index.md#shanghai-disneyland" },
+      { "Hong Kong Disneyland" = "index.md#hong-kong-disneyland" },
+      { "Shanghai Disneyland" = "index.md#shanghai-disneyland" },
     ] },
-    { "Universal Studio" = [
-      { "유니버설 올랜도 리조트" = [
-        { "유니버설 스튜디오 플로리다" = "index.md#universal-studios-florida" },
-        { "유니버설 아일랜드 오브 어드벤처" = "index.md#islands-of-adventure" },
-        { "유니버설 에픽 유니버스" = "index.md#epic-universe" },
+    { "Universal Studios" = [
+      { "Universal Orlando Resort" = [
+        { "Universal Studios Florida" = "index.md#universal-studios-florida" },
+        { "Universal Islands of Adventure" = "index.md#islands-of-adventure" },
+        { "Universal Epic Universe" = "index.md#epic-universe" },
       ] },
-      { "유니버설 스튜디오 할리우드" = "index.md#universal-hollywood" },
-      { "유니버설 스튜디오 재팬" = "index.md#universal-japan" },
-      { "유니버설 스튜디오 싱가포르" = "index.md#universal-singapore" },
-      { "유니버설 베이징 리조트" = "index.md#universal-beijing" },
+      { "Universal Studios Hollywood" = "index.md#universal-hollywood" },
+      { "Universal Studios Japan" = "index.md#universal-japan" },
+      { "Universal Studios Singapore" = "theme-parks/universal/universal-studios-singapore.md" },
+      { "Universal Beijing Resort" = "index.md#universal-beijing" },
     ] },
-    { "기타" = [
-      { "워너 브라더스 스튜디오 투어 도쿄" = "index.md#warner-bros-tokyo" },
-      { "퓨처로스코프 (프랑스)" = "index.md#futuroscope" },
-      { "에프텔링 (네덜란드)" = "index.md#efteling" },
+    { "Others" = [
+      { "Warner Bros. Studio Tour Tokyo" = "index.md#warner-bros-tokyo" },
+      { "Futuroscope (France)" = "index.md#futuroscope" },
+      { "Efteling (Netherlands)" = "index.md#efteling" },
     ] },
   ] },
   { "기록" = [
@@ -73,14 +74,23 @@ nav = [
     { "2019 · 북미" = "index.md#history-2019" },
     { "2021 · 플로리다" = "index.md#history-2021" },
     { "2022 · 일본 / 캘리포니아" = "index.md#history-2022" },
-    { "2023 · 일본 / 미국 / 아부다비" = "index.md#history-2023" },
+    { "2023 · 일본 / 미국" = "index.md#history-2023" },
+    { "2024 · 아부다비 / 캘리포니아" = "index.md#history-2024" },
     { "2025 · 중국" = "index.md#history-2025" },
     { "2026 · 미국 / 중국 / 유럽" = "index.md#history-2026" },
   ] },
+  { "지도" = "index.md#visited-map" },
 ]
 
-extra_css = ["stylesheets/extra.css"]
-extra_javascript = ["javascripts/extra.js"]
+extra_css = [
+  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+  "stylesheets/extra.css",
+]
+extra_javascript = [
+  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+  "javascripts/extra.js",
+  "javascripts/visited-map.js",
+]
 
 [project.theme]
 # variant = "classic"
@@ -99,7 +109,7 @@ features = [
   "content.tooltips",
   # "header.autohide",
   # "navigation.expand",
-  "navigation.footer",
+  # "navigation.footer",
   "navigation.indexes",
   "navigation.instant",
   "navigation.instant.prefetch",

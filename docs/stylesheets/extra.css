@@ -87,8 +87,60 @@
 
 .park-group ul { margin-top: .55rem; }
 
+#travel-map {
+  width: 100%;
+  height: clamp(20rem, 52vw, 28rem);
+  margin: 1rem 0 2rem;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 1.2rem rgba(23, 75, 79, .1);
+  background: color-mix(in srgb, var(--md-default-fg-color) 5%, var(--md-default-bg-color));
+}
+
+#travel-map .leaflet-popup-content {
+  margin: .8rem 1rem;
+  line-height: 1.5;
+}
+
+#travel-map .leaflet-popup-content strong {
+  display: block;
+  margin-bottom: .15rem;
+  color: #174b4f;
+}
+
+#travel-map .leaflet-control-attribution {
+  font-size: .55rem;
+}
+
+[data-md-color-scheme="slate"] #travel-map .leaflet-tile-pane {
+  filter: brightness(.62) invert(1) contrast(1.2) hue-rotate(180deg) saturate(.55);
+}
+
+[data-md-color-scheme="slate"] #travel-map.leaflet-container,
+[data-md-color-scheme="slate"] #travel-map .leaflet-control-zoom a,
+[data-md-color-scheme="slate"] #travel-map .leaflet-popup-content-wrapper,
+[data-md-color-scheme="slate"] #travel-map .leaflet-popup-tip {
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] #travel-map .leaflet-control-zoom a {
+  border-color: var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="slate"] #travel-map .leaflet-control-attribution {
+  color: var(--md-default-fg-color--light);
+  background: color-mix(in srgb, var(--md-default-bg-color) 88%, transparent);
+}
+
+[data-md-color-scheme="slate"] #travel-map .leaflet-control-attribution a {
+  color: var(--md-accent-fg-color);
+}
+
 @media screen and (max-width: 44.984375em) {
   .destination-grid { grid-template-columns: 1fr; }
+  #travel-map { height: 20rem; }
 }
 
 @media screen and (max-width: 76.234375em) {
