@@ -141,7 +141,7 @@ hide:
 
 </div>
 
-- <span id="universal-hollywood"></span>[Studios Hollywood](theme-parks/universal/universal-studios-hollywood.md){ .park-detail-link }
+- <span id="universal-hollywood"></span>Studios Hollywood
 - <span id="universal-japan"></span>[Studios Japan](theme-parks/universal/universal-studios-japan.md){ .park-detail-link }
 - <span id="universal-singapore"></span>[Studios Singapore](theme-parks/universal/universal-studios-singapore.md){ .park-detail-link }
 - <span id="universal-beijing"></span>[Beijing Resort](theme-parks/universal/universal-beijing-resort.md){ .park-detail-link }
@@ -468,4 +468,4 @@ hide:
 
 <div id="travel-map" aria-label="방문한 도시 지도"></div>
 
-<span class="page-updated-source" data-updated="August 25, 2026 at 02:33 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 02:53 (KST)"></span>

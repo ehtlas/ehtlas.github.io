@@ -69,7 +69,7 @@ nav = [
         { "Islands of Adventure" = "index.md#islands-of-adventure" },
         { "Epic Universe" = "index.md#epic-universe" },
       ] },
-      { "Studios Hollywood" = "theme-parks/universal/universal-studios-hollywood.md" },
+      { "Studios Hollywood" = "index.md#universal-hollywood" },
       { "Studios Japan" = "theme-parks/universal/universal-studios-japan.md" },
       { "Studios Singapore" = "theme-parks/universal/universal-studios-singapore.md" },
       { "Beijing Resort" = "theme-parks/universal/universal-beijing-resort.md" },

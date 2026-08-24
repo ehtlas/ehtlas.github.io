@@ -10,7 +10,7 @@
 | 해리 포터 앤드 더 포비든 저니 | Osaka, Beijing |
 | 미니언 메이헴 | Osaka, Beijing |
 | 쥬라기 공원 더 라이드 | Osaka |
-| 워터월드 | Osaka, Hollywood |
+| 워터월드 | Osaka |
 | 트랜스포머 더 라이드: 더 얼티밋 3D 배틀 | Beijing |
 | 쥬라기 월드 어드벤처 | Beijing |
 | 쿵푸팬더: 용의 전사 여정 | Beijing |
@@ -19,4 +19,4 @@
 
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
 
-<span class="page-updated-source" data-updated="August 25, 2026 at 02:33 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 02:54 (KST)"></span>
