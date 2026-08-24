@@ -53,7 +53,7 @@ hide:
 
 - 도쿄
 - 오사카
-- 나고야 (27.summer)
+- 나고야
 - <span id="sapporo"></span>삿포로
 
 </article>
@@ -232,6 +232,7 @@ hide:
 **🇺🇸 캘리포니아**
 
 - 어바인
+- 로스앤젤레스
 
 </article>
 
@@ -444,7 +445,7 @@ hide:
 
 <div class="park-group" markdown>
 
-**🇪🇺 유럽**
+**[🇪🇺 유럽](records/europe-2026.md){ .park-detail-link }**
 
 - 🇨🇭 취리히
 - 🇨🇭 샤프하우젠

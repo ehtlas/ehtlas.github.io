@@ -2,7 +2,7 @@ const visitedCities = [
   { city: "샌프란시스코", country: "미국", flag: "🇺🇸", years: "2004 · 2024 · 2024", coordinates: [37.7749, -122.4194] },
   { city: "팔로알토", country: "미국", flag: "🇺🇸", years: "2024 · 2024", coordinates: [37.4419, -122.143] },
   { city: "산호세", country: "미국", flag: "🇺🇸", years: "2024", coordinates: [37.3382, -121.8863] },
-  { city: "로스앤젤레스", country: "미국", flag: "🇺🇸", years: "2004", coordinates: [34.0522, -118.2437] },
+  { city: "로스앤젤레스", country: "미국", flag: "🇺🇸", years: "2004 · 2012", coordinates: [34.0522, -118.2437] },
   { city: "올랜도", country: "미국", flag: "🇺🇸", years: "2004", coordinates: [28.5383, -81.3792] },
   { city: "베이징", country: "중국", flag: "🇨🇳", years: "2005 · 2026", coordinates: [39.9042, 116.4074] },
   { city: "상하이", country: "중국", flag: "🇨🇳", years: "2005 · 2025", coordinates: [31.2304, 121.4737] },

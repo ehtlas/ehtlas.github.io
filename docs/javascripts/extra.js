@@ -95,7 +95,7 @@ function showLastUpdatedTime() {
     content.append(updated);
   }
 
-  updated.textContent = "Last updated: August 24, 2026 at 23:06 (KST)";
+  updated.textContent = "Last updated: August 25, 2026 at 01:43 (KST)";
 }
 
 const exchangeCurrencies = ["USD", "EUR", "CHF", "JPY", "CNY", "SGD"];
