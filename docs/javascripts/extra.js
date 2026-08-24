@@ -98,6 +98,216 @@ function showLastUpdatedTime() {
   updated.textContent = "Last updated: August 24, 2026 at 23:06 (KST)";
 }
 
+const exchangeCurrencies = ["USD", "EUR", "CHF", "JPY", "CNY", "SGD"];
+let exchangeRateCache;
+let exchangeRateCacheKey;
+const exchangeHistoryCache = {};
+const svgNamespace = "http://www.w3.org/2000/svg";
+const exchangeRateStorageKey = "atlas36-exchange-rates";
+const exchangeHistoryStoragePrefix = "atlas36-exchange-history-";
+
+function getExchangeCycleKey(date = new Date()) {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Seoul",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h23",
+    }).formatToParts(date).filter((part) => part.type !== "literal").map((part) => [part.type, part.value]),
+  );
+  const beforeCheckTime = Number(parts.hour) * 60 + Number(parts.minute) < 9 * 60 + 30;
+  const cycleDate = beforeCheckTime ? new Date(date.getTime() - 24 * 60 * 60 * 1000) : date;
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(cycleDate);
+}
+
+function readStoredExchangeData(key) {
+  try {
+    return JSON.parse(window.localStorage.getItem(key));
+  } catch {
+    return null;
+  }
+}
+
+function storeExchangeData(key, value) {
+  try {
+    window.localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    // 저장 공간을 사용할 수 없어도 현재 페이지의 환율 표시는 유지합니다.
+  }
+}
+
+function renderExchangeRates(data) {
+  const updated = document.querySelector("#exchange-updated");
+  if (!updated || !data?.rates) return;
+
+  exchangeCurrencies.forEach((currency) => {
+    const card = document.querySelector(`.exchange-card[data-currency="${currency}"]`);
+    const value = card?.querySelector("strong");
+    const rate = data.rates[currency];
+    if (!value || !rate) return;
+
+    const unit = currency === "JPY" ? 100 : 1;
+    const won = unit / rate;
+    value.textContent = `${Math.round(won).toLocaleString("ko-KR")}원`;
+  });
+
+  const timestamp = data.timestamp ? new Date(data.timestamp * 1000) : new Date();
+  updated.textContent = `${timestamp.toLocaleDateString("ko-KR", {
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    timeZone: "Asia/Seoul",
+  })} 기준 · 매일 09:30 KST 확인`;
+}
+
+async function updateExchangeRates() {
+  const panel = document.querySelector(".exchange-panel");
+  if (!panel) return;
+
+  const cycleKey = getExchangeCycleKey();
+  const stored = readStoredExchangeData(exchangeRateStorageKey);
+
+  if (exchangeRateCache && exchangeRateCacheKey === cycleKey) {
+    renderExchangeRates(exchangeRateCache);
+    return;
+  }
+
+  if (stored?.cycleKey === cycleKey && stored.data) {
+    exchangeRateCache = stored.data;
+    exchangeRateCacheKey = cycleKey;
+    renderExchangeRates(exchangeRateCache);
+    return;
+  }
+
+  if (exchangeRateCache) renderExchangeRates(exchangeRateCache);
+
+  try {
+    const response = await fetch(
+      "https://ratata.money/api/v1/rates/latest?base=KRW&symbols=USD,EUR,CHF,JPY,CNY,SGD",
+    );
+    if (!response.ok) throw new Error("Exchange rate request failed");
+    exchangeRateCache = await response.json();
+    exchangeRateCacheKey = cycleKey;
+    storeExchangeData(exchangeRateStorageKey, { cycleKey, data: exchangeRateCache });
+    renderExchangeRates(exchangeRateCache);
+  } catch {
+    const updated = document.querySelector("#exchange-updated");
+    if (updated && !exchangeRateCache) updated.textContent = "환율을 불러올 수 없음";
+  }
+}
+
+function appendSvgElement(parent, name, attributes = {}, textContent = "") {
+  const element = document.createElementNS(svgNamespace, name);
+  Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
+  if (textContent) element.textContent = textContent;
+  parent.append(element);
+  return element;
+}
+
+function renderExchangeChart(currency, points) {
+  const svg = document.querySelector(`[data-exchange-chart="${currency}"]`);
+  if (!svg || !points?.length) return;
+
+  svg.replaceChildren();
+  const unit = currency === "JPY" ? 100 : 1;
+  const values = points.map((point) => ({
+    date: point.date,
+    value: unit / point.rate,
+  }));
+  const width = 120;
+  const height = 52;
+  const padding = 2;
+  const chartWidth = width - padding * 2;
+  const chartHeight = height - padding * 2;
+  const rawMin = Math.min(...values.map((point) => point.value));
+  const rawMax = Math.max(...values.map((point) => point.value));
+  const range = rawMax - rawMin || rawMax * 0.01 || 1;
+  const min = rawMin - range * 0.12;
+  const max = rawMax + range * 0.12;
+  const x = (index) => padding + (index / Math.max(values.length - 1, 1)) * chartWidth;
+  const y = (value) => padding + ((max - value) / (max - min)) * chartHeight;
+
+  const polyline = appendSvgElement(svg, "polyline", {
+    points: values.map((point, index) => `${x(index)},${y(point.value)}`).join(" "),
+    class: "exchange-chart-line",
+  });
+  polyline.setAttribute("aria-hidden", "true");
+
+  const unitLabel = currency === "JPY" ? "100 JPY" : `1 ${currency}`;
+  svg.setAttribute("aria-label", `최근 1년 ${unitLabel} 원화 환율 일별 그래프`);
+}
+
+async function updateExchangeChart(currency) {
+  const svg = document.querySelector(`[data-exchange-chart="${currency}"]`);
+  if (!svg) return;
+
+  const cycleKey = getExchangeCycleKey();
+  const storageKey = `${exchangeHistoryStoragePrefix}${currency}`;
+  const stored = readStoredExchangeData(storageKey);
+
+  if (exchangeHistoryCache[currency]?.cycleKey === cycleKey) {
+    renderExchangeChart(currency, exchangeHistoryCache[currency].points);
+    return;
+  }
+
+  if (stored?.cycleKey === cycleKey && stored.points) {
+    exchangeHistoryCache[currency] = stored;
+    renderExchangeChart(currency, stored.points);
+    return;
+  }
+
+  try {
+    const response = await fetch(
+      `https://ratata.money/api/v1/rates/history?base=KRW&symbol=${currency}&range=1y`,
+    );
+    if (!response.ok) throw new Error("Exchange rate history request failed");
+    const data = await response.json();
+    exchangeHistoryCache[currency] = { cycleKey, points: data.points };
+    storeExchangeData(storageKey, exchangeHistoryCache[currency]);
+    renderExchangeChart(currency, data.points);
+  } catch {
+    svg.setAttribute("aria-label", `${currency} 그래프를 불러올 수 없음`);
+  }
+}
+
+function configureExchangeChart() {
+  const chartGrid = document.querySelector(".exchange-grid");
+  if (!chartGrid || chartGrid.dataset.ready) return;
+
+  chartGrid.dataset.ready = "true";
+  exchangeCurrencies.forEach(updateExchangeChart);
+}
+
+function scheduleDailyExchangeRefresh() {
+  const now = new Date();
+  const koreaNow = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  let nextCheck = Date.UTC(
+    koreaNow.getUTCFullYear(),
+    koreaNow.getUTCMonth(),
+    koreaNow.getUTCDate(),
+    0,
+    30,
+  );
+  if (nextCheck <= now.getTime()) nextCheck += 24 * 60 * 60 * 1000;
+
+  window.setTimeout(() => {
+    exchangeRateCache = undefined;
+    exchangeRateCacheKey = undefined;
+    Object.keys(exchangeHistoryCache).forEach((currency) => delete exchangeHistoryCache[currency]);
+    updateExchangeRates();
+    exchangeCurrencies.forEach(updateExchangeChart);
+    scheduleDailyExchangeRefresh();
+  }, nextCheck - now.getTime());
+}
+
 let masonryTimer;
 
 function layoutCardGrids() {
@@ -133,6 +343,8 @@ enableHeaderHomeLink();
 configureMapNavigation();
 configurePrimaryNavigation();
 showLastUpdatedTime();
+updateExchangeRates();
+configureExchangeChart();
 schedulePlaceGridLayout();
 
 if (!window.placeGridResizeReady) {
@@ -144,12 +356,19 @@ if (document.fonts) {
   document.fonts.ready.then(schedulePlaceGridLayout);
 }
 
+if (!window.exchangeRateRefreshReady) {
+  window.exchangeRateRefreshReady = true;
+  scheduleDailyExchangeRefresh();
+}
+
 if (typeof document$ !== "undefined") {
   document$.subscribe(() => {
     enableHeaderHomeLink();
     configureMapNavigation();
     configurePrimaryNavigation();
     showLastUpdatedTime();
+    updateExchangeRates();
+    configureExchangeChart();
     schedulePlaceGridLayout();
   });
 }

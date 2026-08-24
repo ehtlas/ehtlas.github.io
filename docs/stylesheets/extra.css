@@ -23,12 +23,96 @@
 }
 
 /* 스크롤 위치와 관계없이 헤더에는 사이트 이름만 표시합니다. */
-.md-header__title--active .md-header__topic:first-child {
-  transform: none;
+.md-header__title .md-header__topic:first-child {
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .md-header__topic[data-md-component="header-topic"] {
   display: none;
+}
+
+.exchange-panel {
+  margin: 0 0 2.2rem;
+  padding: 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--travel-accent) 28%, var(--md-default-fg-color--lightest));
+  border-radius: 1rem;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--travel-accent) 7%, var(--md-default-bg-color)), var(--md-default-bg-color));
+  box-shadow: 0 .3rem 1.2rem rgba(23, 75, 79, .07);
+}
+
+.exchange-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: .8rem;
+}
+
+.exchange-heading h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.exchange-heading span {
+  color: var(--md-default-fg-color--light);
+  font-size: .62rem;
+  white-space: nowrap;
+}
+
+.exchange-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: .55rem;
+}
+
+.exchange-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 42%;
+  grid-template-rows: repeat(3, auto);
+  column-gap: .35rem;
+  align-items: center;
+  min-width: 0;
+  padding: .7rem .75rem;
+  border-radius: .7rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 4%, transparent);
+}
+
+.exchange-card span {
+  grid-column: 1;
+  color: var(--md-default-fg-color--light);
+  font-size: .64rem;
+  font-weight: 600;
+}
+
+.exchange-card strong {
+  grid-column: 1;
+  color: var(--travel-accent);
+  font-size: .84rem;
+  white-space: nowrap;
+}
+
+.exchange-card small {
+  grid-column: 1;
+  color: var(--md-default-fg-color--lighter);
+  font-size: .56rem;
+}
+
+.exchange-card svg {
+  grid-column: 2;
+  grid-row: 1 / 4;
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: .82;
+}
+
+.exchange-chart-line {
+  fill: none;
+  stroke: var(--travel-accent);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .destination-grid {
@@ -270,7 +354,12 @@
 @media screen and (max-width: 44.984375em) {
   .destination-grid { grid-template-columns: 1fr; }
   .highlight-grid { grid-template-columns: 1fr; }
+  .exchange-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   #travel-map { height: 20rem; }
+}
+
+@media screen and (min-width: 44.984375em) and (max-width: 76.234375em) {
+  .exchange-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 @media screen and (min-width: 76.234375em) {

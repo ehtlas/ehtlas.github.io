@@ -4,9 +4,32 @@ hide:
   - toc
 ---
 
+<section class="exchange-panel" aria-labelledby="exchange-title">
+  <div class="exchange-heading">
+    <h2 id="exchange-title">환율</h2>
+    <span id="exchange-updated">불러오는 중</span>
+  </div>
+  <div class="exchange-grid">
+    <div class="exchange-card" data-currency="USD"><span>🇺🇸 USD</span><strong>—</strong><small>1달러</small><svg data-exchange-chart="USD" viewBox="0 0 120 52" role="img"></svg></div>
+    <div class="exchange-card" data-currency="EUR"><span>🇪🇺 EUR</span><strong>—</strong><small>1유로</small><svg data-exchange-chart="EUR" viewBox="0 0 120 52" role="img"></svg></div>
+    <div class="exchange-card" data-currency="CHF"><span>🇨🇭 CHF</span><strong>—</strong><small>1프랑</small><svg data-exchange-chart="CHF" viewBox="0 0 120 52" role="img"></svg></div>
+    <div class="exchange-card" data-currency="JPY"><span>🇯🇵 JPY</span><strong>—</strong><small>100엔</small><svg data-exchange-chart="JPY" viewBox="0 0 120 52" role="img"></svg></div>
+    <div class="exchange-card" data-currency="CNY"><span>🇨🇳 CNY</span><strong>—</strong><small>1위안</small><svg data-exchange-chart="CNY" viewBox="0 0 120 52" role="img"></svg></div>
+    <div class="exchange-card" data-currency="SGD"><span>🇸🇬 SGD</span><strong>—</strong><small>1달러</small><svg data-exchange-chart="SGD" viewBox="0 0 120 52" role="img"></svg></div>
+  </div>
+</section>
+
 # 장소
 
 <div class="destination-grid place-grid" markdown>
+
+<article class="destination-card" markdown>
+
+### 🇰🇷 한국
+
+- <span id="seoul"></span>서울
+
+</article>
 
 <article class="destination-card" markdown>
 
@@ -101,7 +124,7 @@ hide:
 
 <div class="park-group" markdown>
 
-<span id="universal-orlando"></span>**Orlando Resort**
+<span id="universal-orlando"></span>**[Orlando Resort](theme-parks/universal/universal-orlando-resort.md){ .park-detail-link }**
 
 - <span id="universal-studios-florida"></span>Studios Florida
 - <span id="islands-of-adventure"></span>Islands of Adventure
@@ -258,6 +281,18 @@ hide:
 
 <div class="park-group" markdown>
 
+**🇭🇰 홍콩**
+
+- 홍콩
+
+**🇲🇴 마카오**
+
+- 마카오
+
+</div>
+
+<div class="park-group" markdown>
+
 **🌎 북미**
 
 - 🇺🇸 시애틀
@@ -268,18 +303,6 @@ hide:
 - 🇨🇦 몬트리올
 - 🇨🇦 퀘벡
 - 🇺🇸 뉴욕
-
-</div>
-
-<div class="park-group" markdown>
-
-**🇭🇰 홍콩**
-
-- 홍콩
-
-**🇲🇴 마카오**
-
-- 마카오
 
 </div>
 
@@ -364,8 +387,18 @@ hide:
 
 **🇺🇸 캘리포니아**
 
-- 샌프란시스코 01
-- 샌프란시스코 02
+- 샌프란시스코
+- 팔로알토
+
+</div>
+
+<div class="park-group" markdown>
+
+**🇺🇸 캘리포니아**
+
+- 샌프란시스코
+- 팔로알토
+- 산호세
 
 </div>
 

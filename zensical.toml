@@ -12,6 +12,9 @@ site_description = "여행 준비에 필요한 정보를 한곳에 정리한 여
 nav = [
   { "홈" = "index.md" },
   { "장소" = [
+    { "한국" = [
+      { "서울" = "index.md#seoul" },
+    ] },
     { "캘리포니아" = [
       { "로스앤젤레스" = "places/california/los-angeles.md" },
     ] },
@@ -54,6 +57,8 @@ nav = [
     ] },
     { "Universal Studios" = [
       { "Universal Orlando Resort" = [
+        { "Overview" = "theme-parks/universal/universal-orlando-resort.md" },
+        { "Tickets" = "theme-parks/universal/universal-orlando-resort-tickets.md" },
         { "Universal Studios Florida" = "index.md#universal-studios-florida" },
         { "Universal Islands of Adventure" = "index.md#islands-of-adventure" },
         { "Universal Epic Universe" = "index.md#epic-universe" },
