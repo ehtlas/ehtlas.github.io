@@ -4,15 +4,7 @@ hide:
   - toc
 ---
 
-# 여행지를 찾아보세요
-
-<div class="travel-hero" markdown>
-
-가고 싶은 도시와 테마파크를 선택해 여행 정보를 살펴보세요.
-
-</div>
-
-## 장소
+# 장소
 
 <div class="destination-grid" markdown>
 
@@ -44,7 +36,7 @@ hide:
 
 </div>
 
-## 테마파크
+# 테마파크
 
 <div class="destination-grid theme-grid" markdown>
 

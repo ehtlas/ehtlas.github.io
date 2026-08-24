@@ -13,30 +13,6 @@
   --md-accent-fg-color: #ff9a76;
 }
 
-.travel-hero {
-  margin: 1rem 0 2.5rem;
-  padding: clamp(2rem, 6vw, 4.5rem);
-  border-radius: 1.2rem;
-  background:
-    radial-gradient(circle at 88% 18%, rgba(255, 212, 163, .9), transparent 25%),
-    linear-gradient(135deg, #174b4f, #26757a);
-  color: white;
-  box-shadow: 0 1rem 2.5rem rgba(23, 75, 79, .18);
-}
-
-.travel-hero p:first-child {
-  max-width: 34rem;
-  margin-top: 0;
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
-  line-height: 1.7;
-}
-
-.travel-hero .md-button--primary {
-  border-color: white;
-  background: white;
-  color: #174b4f;
-}
-
 .destination-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
