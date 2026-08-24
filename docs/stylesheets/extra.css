@@ -13,15 +13,24 @@
   --md-accent-fg-color: #ff9a76;
 }
 
+.md-header__title[role="link"] {
+  cursor: pointer;
+}
+
+.md-header__title[role="link"]:hover,
+.md-header__title[role="link"]:focus-visible {
+  opacity: .8;
+}
+
 .destination-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: start;
   gap: 1rem;
   margin: 1rem 0 2rem;
 }
 
 .destination-card {
-  min-height: 10rem;
   padding: 1.35rem 1.5rem;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 1rem;
@@ -49,6 +58,20 @@
 
 .destination-card li + li { margin-top: .55rem; }
 .destination-card p:last-child { margin-bottom: 0; }
+
+.park-group {
+  margin-top: 1rem;
+  padding: .85rem 1rem;
+  border-radius: .7rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 4%, transparent);
+}
+
+.park-group > p:first-child {
+  margin-top: 0;
+  color: var(--md-default-fg-color);
+}
+
+.park-group ul { margin-top: .55rem; }
 
 .featured-card {
   border-color: color-mix(in srgb, var(--travel-accent) 45%, transparent);

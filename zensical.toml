@@ -25,16 +25,45 @@ nav = [
     ] },
   ] },
   { "테마파크" = [
-    { "디즈니랜드" = [
-      { "도쿄 디즈니랜드" = "theme-parks/disney/tokyo-disneyland.md" },
-      { "도쿄 디즈니씨" = "theme-parks/disney/tokyo-disneysea.md" },
+    { "Disney Parks" = [
+      { "디즈니랜드 리조트" = [
+        { "디즈니랜드 파크" = "index.md#disneyland-park" },
+        { "디즈니 캘리포니아 어드벤처" = "index.md#california-adventure" },
+      ] },
+      { "월트 디즈니 월드" = [
+        { "매직 킹덤" = "index.md#magic-kingdom" },
+        { "엡콧" = "index.md#epcot" },
+        { "할리우드 스튜디오" = "index.md#hollywood-studios" },
+        { "애니멀 킹덤" = "index.md#animal-kingdom" },
+      ] },
+      { "도쿄 디즈니 리조트" = [
+        { "도쿄 디즈니랜드" = "index.md#tokyo-disneyland" },
+        { "도쿄 디즈니씨" = "index.md#tokyo-disneysea" },
+      ] },
+      { "홍콩 디즈니랜드" = "index.md#hong-kong-disneyland" },
+      { "상하이 디즈니랜드" = "index.md#shanghai-disneyland" },
+    ] },
+    { "유니버설" = [
+      { "유니버설 올랜도 리조트" = [
+        { "유니버설 스튜디오 플로리다" = "index.md#universal-studios-florida" },
+        { "유니버설 아일랜드 오브 어드벤처" = "index.md#islands-of-adventure" },
+        { "유니버설 에픽 유니버스" = "index.md#epic-universe" },
+      ] },
+      { "유니버설 스튜디오 할리우드" = "index.md#universal-hollywood" },
+      { "유니버설 스튜디오 재팬" = "index.md#universal-japan" },
+      { "유니버설 스튜디오 싱가포르" = "index.md#universal-singapore" },
+      { "유니버설 베이징 리조트" = "index.md#universal-beijing" },
+    ] },
+    { "기타" = [
+      { "워너 브라더스 스튜디오 투어 도쿄" = "index.md#warner-bros-tokyo" },
+      { "퓨처로스코프 (프랑스)" = "index.md#futuroscope" },
+      { "에프텔링 (네덜란드)" = "index.md#efteling" },
     ] },
   ] },
-  { "여행 준비" = "travel.md" },
 ]
 
 extra_css = ["stylesheets/extra.css"]
-# extra_javascript = ["javascripts/extra.js"]
+extra_javascript = ["javascripts/extra.js"]
 
 [project.theme]
 # variant = "classic"
@@ -111,7 +140,7 @@ attr_list = {}
 def_list = {}
 footnotes = {}
 md_in_html = {}
-toc.permalink = true
+toc.permalink = false
 pymdownx.arithmatex.generic = true
 pymdownx.betterem = {}
 pymdownx.caret = {}
