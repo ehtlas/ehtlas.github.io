@@ -333,5 +333,3 @@ USS에서 가장 스릴이 강한 어트랙션 중 하나이며 인기가 많다
 ///Footnotes Go Here///
 
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
-
-<p class="page-updated">Last updated: August 24, 2026 at 21:37 (KST)</p>

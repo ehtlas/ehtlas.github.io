@@ -84,6 +84,20 @@ function configurePrimaryNavigation() {
   });
 }
 
+function showLastUpdatedTime() {
+  const content = document.querySelector(".md-content__inner");
+  if (!content) return;
+
+  let updated = content.querySelector(".page-updated");
+  if (!updated) {
+    updated = document.createElement("p");
+    updated.className = "page-updated";
+    content.append(updated);
+  }
+
+  updated.textContent = "Last updated: August 24, 2026 at 23:06 (KST)";
+}
+
 let masonryTimer;
 
 function layoutCardGrids() {
@@ -118,6 +132,7 @@ function schedulePlaceGridLayout() {
 enableHeaderHomeLink();
 configureMapNavigation();
 configurePrimaryNavigation();
+showLastUpdatedTime();
 schedulePlaceGridLayout();
 
 if (!window.placeGridResizeReady) {
@@ -134,6 +149,7 @@ if (typeof document$ !== "undefined") {
     enableHeaderHomeLink();
     configureMapNavigation();
     configurePrimaryNavigation();
+    showLastUpdatedTime();
     schedulePlaceGridLayout();
   });
 }

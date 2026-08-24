@@ -138,6 +138,46 @@
   transform: translateX(.18rem);
 }
 
+.info-button {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .58rem .85rem;
+  color: var(--travel-accent) !important;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none !important;
+  border: 1px solid color-mix(in srgb, var(--travel-accent) 42%, transparent);
+  border-radius: .75rem;
+  background: color-mix(in srgb, var(--travel-accent) 8%, var(--md-default-bg-color));
+  box-shadow: 0 .2rem .7rem rgba(23, 75, 79, .08) !important;
+  transition: background .18s ease, border-color .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+
+.info-button:hover,
+.info-button:focus-visible {
+  border-color: var(--travel-accent);
+  background: color-mix(in srgb, var(--travel-accent) 14%, var(--md-default-bg-color));
+  box-shadow: 0 .35rem 1rem rgba(23, 75, 79, .14) !important;
+  transform: translateY(-1px);
+}
+
+.info-button .twemoji {
+  width: 1rem;
+  height: 1rem;
+}
+
+.info-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+}
+
+.info-button-row p {
+  margin: 0;
+}
+
 .home-return-link {
   display: inline-flex;
   align-items: center;

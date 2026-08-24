@@ -44,7 +44,7 @@ icon: lucide/map-pin
 - 관광 편의성을 최우선으로 한다면 **마리나 베이** 추천
 - 숙박비와 교통 편의성을 함께 고려한다면 **클락키** 또는 **시청(City Hall)역 인근** 추천
 
-[싱가포르 호텔](hotels.md){ .park-detail-link }
+[:lucide-hotel: 싱가포르 호텔](hotels.md){ .info-button }
 
 ---
 
@@ -52,9 +52,13 @@ icon: lucide/map-pin
 
 - MRT와 버스가 잘 갖춰져 있어 대중교통만으로 대부분의 관광지 이동 가능
 
-[싱가포르 대중교통](transportation.md){ .park-detail-link }
+<div class="info-button-row" markdown>
 
-[창이공항 → City Hall](airport-to-marina-bay.md){ .park-detail-link }
+[:lucide-train-front: 싱가포르 대중교통](transportation.md){ .info-button }
+
+[:lucide-plane: 창이공항 → City Hall](airport-to-marina-bay.md){ .info-button }
+
+</div>
 
 ---
 
@@ -68,7 +72,7 @@ icon: lucide/map-pin
 
 ## 5. 음식
 
-[싱가포르 필수 음식](food.md){ .park-detail-link }
+[:lucide-utensils: 싱가포르 필수 음식](food.md){ .info-button }
 
 ---
 
