@@ -1,0 +1,84 @@
+:root {
+  --travel-accent: #e9663d;
+  --travel-accent-dark: #b94222;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #174b4f;
+  --md-accent-fg-color: var(--travel-accent-dark);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #174b4f;
+  --md-accent-fg-color: #ff9a76;
+}
+
+.travel-hero {
+  margin: 1rem 0 2.5rem;
+  padding: clamp(2rem, 6vw, 4.5rem);
+  border-radius: 1.2rem;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(255, 212, 163, .9), transparent 25%),
+    linear-gradient(135deg, #174b4f, #26757a);
+  color: white;
+  box-shadow: 0 1rem 2.5rem rgba(23, 75, 79, .18);
+}
+
+.travel-hero p:first-child {
+  max-width: 34rem;
+  margin-top: 0;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  line-height: 1.7;
+}
+
+.travel-hero .md-button--primary {
+  border-color: white;
+  background: white;
+  color: #174b4f;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.destination-card {
+  min-height: 10rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 1rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 .3rem 1.2rem rgba(23, 75, 79, .07);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .65rem 1.5rem rgba(23, 75, 79, .12);
+}
+
+.destination-card h3 {
+  margin-top: 0;
+  padding-bottom: .65rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.destination-card ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.destination-card li + li { margin-top: .55rem; }
+.destination-card p:last-child { margin-bottom: 0; }
+
+.featured-card {
+  border-color: color-mix(in srgb, var(--travel-accent) 45%, transparent);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--travel-accent) 9%, var(--md-default-bg-color)), var(--md-default-bg-color));
+}
+
+@media screen and (max-width: 44.984375em) {
+  .destination-grid { grid-template-columns: 1fr; }
+}
