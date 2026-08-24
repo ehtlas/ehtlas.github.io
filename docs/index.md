@@ -136,22 +136,14 @@ hide:
 
 ### <span id="history-2004"></span>2004
 
-<div class="park-group" markdown>
-
 **🇺🇸 캘리포니아**
 
 - 샌프란시스코
 - 로스앤젤레스
 
-</div>
-
-<div class="park-group" markdown>
-
 **🇺🇸 플로리다**
 
 - 올랜도
-
-</div>
 
 </article>
 
@@ -182,21 +174,13 @@ hide:
 
 ### <span id="history-2010"></span>2010
 
-<div class="park-group" markdown>
-
 **🇺🇸 테네시**
 
 - 녹스빌
 
-</div>
-
-<div class="park-group" markdown>
-
 **🇺🇸 조지아**
 
 - 애틀랜타
-
-</div>
 
 </article>
 
@@ -272,6 +256,8 @@ hide:
 
 ### <span id="history-2019"></span>2019
 
+<div class="park-group" markdown>
+
 **🌎 북미**
 
 - 🇺🇸 시애틀
@@ -282,6 +268,20 @@ hide:
 - 🇨🇦 몬트리올
 - 🇨🇦 퀘벡
 - 🇺🇸 뉴욕
+
+</div>
+
+<div class="park-group" markdown>
+
+**🇭🇰 홍콩**
+
+- 홍콩
+
+**🇲🇴 마카오**
+
+- 마카오
+
+</div>
 
 </article>
 
@@ -407,6 +407,8 @@ hide:
 **🇪🇺 유럽**
 
 - 🇨🇭 취리히
+- 🇨🇭 샤프하우젠
+- 🇩🇪 징겐
 - 🇨🇭 루체른
 - 🇨🇭 인터라켄
 - 🇨🇭 체르마트
