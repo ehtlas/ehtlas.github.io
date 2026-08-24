@@ -104,7 +104,7 @@ function initializeVisitedMap() {
   });
 
   map.fitBounds(bounds, { padding: [24, 24] });
-  map.panBy([0, 40], { animate: false });
+  map.panBy([0, 0], { animate: false });
 }
 
 initializeVisitedMap();

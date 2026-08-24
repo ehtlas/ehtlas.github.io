@@ -72,7 +72,13 @@ icon: lucide/map-pin
 
 ## 5. 음식
 
+<div class="info-button-row" markdown>
+
 [:lucide-utensils: 싱가포르 필수 음식](food.md){ .info-button }
+
+[:lucide-coffee: 마리나 베이 전망 애프터눈 티 & 바](afternoon-tea.md){ .info-button }
+
+</div>
 
 ---
 

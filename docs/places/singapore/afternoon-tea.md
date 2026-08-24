@@ -104,4 +104,4 @@ SKAI처럼 높은 곳에서 내려다보는 전망이 아니라 **마리나 베�
 | **추천 시간** | 14:00~16:00 | 15:30~18:00 | 18:30 이후 |
 | **추천 목적** | 전망 + 애프터눈 티 | 여유로운 애프터눈 티 | 선셋 + 야경 + 칵테일 |
 
-[:lucide-arrow-left: 싱가포르 필수 음식으로 돌아가기](food.md){ .home-return-link }
+[:lucide-arrow-left: 싱가포르 페이지로 돌아가기](singapore.md){ .home-return-link }

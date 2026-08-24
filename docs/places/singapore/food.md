@@ -18,6 +18,4 @@ icon: lucide/utensils
 - 🥘 **피시 헤드 커리:** 생선 머리를 사용한 매콤한 커리
 - 🍊 **착즙 오렌지 주스:** 곳곳의 자동판매기에서 바로 착즙해 판매하는 주스
 
-[:lucide-coffee: 마리나 베이 전망 애프터눈 티 & 바](afternoon-tea.md){ .info-button }
-
 [:lucide-arrow-left: 싱가포르 페이지로 돌아가기](singapore.md){ .home-return-link }
