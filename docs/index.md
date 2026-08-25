@@ -25,9 +25,9 @@ hide:
 
 <article class="destination-card" markdown>
 
-### 🇰🇷 한국
+### [🇰🇷 한국](places/korea/korea.md){ .park-detail-link }
 
-- <span id="seoul"></span>서울
+- <span id="seoul"></span>[서울](places/korea/seoul.md){ .park-detail-link }
 
 </article>
 
@@ -49,12 +49,12 @@ hide:
 
 <article class="destination-card" markdown>
 
-### 🇯🇵 일본
+### [🇯🇵 일본](places/japan/japan.md){ .park-detail-link }
 
 - <span id="tokyo"></span>[도쿄](places/japan/tokyo.md){ .park-detail-link }
 - 오사카
 - 나고야
-- <span id="sapporo"></span>삿포로
+- <span id="sapporo"></span>[삿포로](places/japan/sapporo.md){ .park-detail-link }
 
 </article>
 
@@ -86,10 +86,10 @@ hide:
 
 <div class="park-group" markdown>
 
-<span id="disneyland-resort"></span>**Disneyland Resort**
+<span id="disneyland-resort"></span>**[Disneyland Resort](theme-parks/disney/disneyland-resort.md){ .park-detail-link }**
 
-- <span id="disneyland-park"></span>Disneyland Park
-- <span id="california-adventure"></span>California Adventure
+- <span id="disneyland-park"></span>[Disneyland Park](theme-parks/disney/disneyland-park.md){ .park-detail-link }
+- <span id="california-adventure"></span>[California Adventure](theme-parks/disney/california-adventure.md){ .park-detail-link }
 
 </div>
 
@@ -98,15 +98,15 @@ hide:
 <span id="walt-disney-world"></span>**[Walt Disney World](theme-parks/disney/walt-disney-world.md){ .park-detail-link }**
 
 - <span id="magic-kingdom"></span>[Magic Kingdom](theme-parks/disney/magic-kingdom.md){ .park-detail-link }
-- <span id="epcot"></span>EPCOT
-- <span id="hollywood-studios"></span>Hollywood Studios
-- <span id="animal-kingdom"></span>Animal Kingdom
+- <span id="epcot"></span>[EPCOT](theme-parks/disney/epcot.md){ .park-detail-link }
+- <span id="hollywood-studios"></span>[Hollywood Studios](theme-parks/disney/hollywood-studios.md){ .park-detail-link }
+- <span id="animal-kingdom"></span>[Animal Kingdom](theme-parks/disney/animal-kingdom.md){ .park-detail-link }
 
 </div>
 
 <div class="park-group" markdown>
 
-<span id="tokyo-disney-resort"></span>**Tokyo Disney Resort**
+<span id="tokyo-disney-resort"></span>**[Tokyo Disney Resort](theme-parks/disney/tokyo-disney-resort.md){ .park-detail-link }**
 
 - <span id="tokyo-disneyland"></span>[Tokyo Disneyland](theme-parks/disney/tokyo-disneyland.md){ .park-detail-link }
 - <span id="tokyo-disneysea"></span>[Tokyo DisneySea](theme-parks/disney/tokyo-disneysea.md){ .park-detail-link }
@@ -115,10 +115,10 @@ hide:
 
 <div class="park-group" markdown>
 
-<span id="disneyland-paris"></span>**Disneyland Paris**
+<span id="disneyland-paris"></span>**[Disneyland Paris](theme-parks/disney/disneyland-paris.md){ .park-detail-link }**
 
-- <span id="disneyland-park-paris"></span>Disneyland Park
-- <span id="disney-adventure-world"></span>Disney Adventure World
+- <span id="disneyland-park-paris"></span>[Disneyland Park](theme-parks/disney/disneyland-park-paris.md){ .park-detail-link }
+- <span id="disney-adventure-world"></span>[Adventure World](theme-parks/disney/disney-adventure-world.md){ .park-detail-link }
 
 </div>
 
@@ -135,9 +135,9 @@ hide:
 
 <span id="universal-orlando"></span>**[Orlando Resort](theme-parks/universal/universal-orlando-resort.md){ .park-detail-link }**
 
-- <span id="studios-florida"></span>Studios Florida
-- <span id="islands-of-adventure"></span>Islands of Adventure
-- <span id="epic-universe"></span>Epic Universe
+- <span id="studios-florida"></span>[Studios Florida](theme-parks/universal/universal-studios-florida.md){ .park-detail-link }
+- <span id="islands-of-adventure"></span>[Islands of Adventure](theme-parks/universal/universal-islands-of-adventure.md){ .park-detail-link }
+- <span id="epic-universe"></span>[Epic Universe](theme-parks/universal/epic-universe.md){ .park-detail-link }
 
 </div>
 
@@ -481,4 +481,4 @@ hide:
 
 <div id="travel-map" aria-label="방문한 도시 지도"></div>
 
-<span class="page-updated-source" data-updated="August 25, 2026 at 13:47 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 15:45 (KST)"></span>

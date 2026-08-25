@@ -1,7 +1,3 @@
----
-icon: lucide/ticket
----
-
 # Universal Orlando Resort Tickets
 
 ## 🎢 Universal Orlando Resort 입장권 총정리
@@ -72,4 +68,4 @@ Epic Universe는 기존 두 파크보다 1일권 가격이 조금 더 높습니�
 
 [:lucide-arrow-left: Orlando Resort로 돌아가기](universal-orlando-resort.md){ .home-return-link }
 
-<span class="page-updated-source" data-updated="August 25, 2026 at 00:00 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 14:41 (KST)"></span>

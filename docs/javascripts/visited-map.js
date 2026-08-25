@@ -63,6 +63,41 @@ const visitedCities = [
   { city: "로잔", country: "스위스", flag: "🇨🇭", years: "2026", coordinates: [46.5197, 6.6323] },
 ];
 
+const japanMugLocations = [
+  { name: "HOKKAIDO", coordinates: [43.0618, 141.3545] },
+  { name: "TOKYO", coordinates: [35.6762, 139.6503] },
+  { name: "KYOTO", coordinates: [35.0116, 135.7681] },
+  { name: "OSAKA", coordinates: [34.6937, 135.5023] },
+  { name: "FUKUOKA", coordinates: [33.5902, 130.4017] },
+  { name: "OKINAWA", coordinates: [26.2124, 127.6809] },
+  { name: "SENDAI", coordinates: [38.2682, 140.8694] },
+  { name: "TOCHIGI", coordinates: [36.5551, 139.8828] },
+  { name: "YOKOHAMA", coordinates: [35.4437, 139.638] },
+  { name: "KANAZAWA", coordinates: [36.5613, 136.6562] },
+  { name: "NAGANO", coordinates: [36.6486, 138.1948] },
+  { name: "GIFU", coordinates: [35.4233, 136.7607] },
+  { name: "NAGOYA", coordinates: [35.1815, 136.9066] },
+  { name: "KOBE", coordinates: [34.6901, 135.1955] },
+  { name: "NARA", coordinates: [34.6851, 135.8048] },
+  { name: "HIROSHIMA", coordinates: [34.3853, 132.4553] },
+  { name: "NAGASAKI", coordinates: [32.7503, 129.8777] },
+  { name: "KUMAMOTO", coordinates: [32.8031, 130.7079] },
+  { name: "OITA", coordinates: [33.2396, 131.6093] },
+];
+
+const koreaMugLocations = [
+  { name: "강원", coordinates: [37.8813, 127.7298], image: "starbucks-annyeong-gangwon.png" },
+  { name: "경기", coordinates: [37.2636, 127.0286], image: "starbucks-annyeong-gyeonggi.png" },
+  { name: "경상", coordinates: [35.8714, 128.6014], image: "starbucks-annyeong-gyeongsang.png" },
+  { name: "경주", coordinates: [35.8562, 129.2247], image: "starbucks-annyeong-gyeongju.png" },
+  { name: "부산", coordinates: [35.1796, 129.0756], image: "starbucks-annyeong-busan.png" },
+  { name: "서울", coordinates: [37.5665, 126.978], image: "starbucks-annyeong-seoul.png" },
+  { name: "인천", coordinates: [37.4563, 126.7052], image: "starbucks-annyeong-incheon.png" },
+  { name: "전라", coordinates: [35.1595, 126.8526], image: "starbucks-annyeong-jeolla.png" },
+  { name: "제주", coordinates: [33.4996, 126.5312], image: "starbucks-annyeong-jeju.png" },
+  { name: "충청", coordinates: [36.3504, 127.3845], image: "starbucks-annyeong-chungcheong.png" },
+];
+
 function createVisitedCityPopup(place) {
   const content = document.createElement("div");
   const title = document.createElement("strong");
@@ -116,6 +151,123 @@ function initializeVisitedMap() {
 
 initializeVisitedMap();
 
+function initializeJapanMugMap() {
+  const mapElement = document.querySelector("#japan-mug-map");
+
+  if (!mapElement || mapElement.dataset.mapReady || typeof L === "undefined") return;
+
+  mapElement.dataset.mapReady = "true";
+
+  const map = L.map(mapElement, {
+    scrollWheelZoom: false,
+    zoomDelta: 0.5,
+    zoomSnap: 0.5,
+  });
+
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  const bounds = [];
+
+  const createMugPopup = (location) => {
+    const content = document.createElement("div");
+    const title = document.createElement("strong");
+    const imageFrame = document.createElement("div");
+    const image = document.createElement("img");
+    const homeLink = document.querySelector(".md-header__button.md-logo");
+
+    content.className = "japan-mug-popup";
+    title.textContent = location.name;
+    imageFrame.className = "japan-mug-popup__image";
+    image.src = new URL(
+      `assets/starbucks-discovery-${location.name.toLowerCase()}.png`,
+      homeLink?.href || window.location.href,
+    ).href;
+    image.alt = `스타벅스 디스커버리 시리즈 ${location.name} 머그`;
+    imageFrame.append(image);
+    content.append(title, imageFrame);
+
+    return content;
+  };
+
+  japanMugLocations.forEach((location) => {
+    L.circleMarker(location.coordinates, {
+      radius: 6,
+      color: "#ffffff",
+      weight: 2,
+      fillColor: "#e9663d",
+      fillOpacity: 1,
+    })
+      .addTo(map)
+      .bindPopup(createMugPopup(location), { minWidth: 210, maxWidth: 460 });
+
+    bounds.push(location.coordinates);
+  });
+
+  map.fitBounds(bounds, { padding: [30, 30] });
+}
+
+initializeJapanMugMap();
+
+function initializeKoreaMugMap() {
+  const mapElement = document.querySelector("#korea-mug-map");
+
+  if (!mapElement || mapElement.dataset.mapReady || typeof L === "undefined") return;
+
+  mapElement.dataset.mapReady = "true";
+
+  const map = L.map(mapElement, {
+    scrollWheelZoom: false,
+    zoomDelta: 0.5,
+    zoomSnap: 0.5,
+  });
+
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  koreaMugLocations.forEach((location) => {
+    const marker = L.circleMarker(location.coordinates, {
+      radius: 6,
+      color: "#ffffff",
+      weight: 2,
+      fillColor: "#e9663d",
+      fillOpacity: 1,
+    }).addTo(map);
+
+    if (location.image) {
+      const content = document.createElement("div");
+      const title = document.createElement("strong");
+      const imageFrame = document.createElement("div");
+      const image = document.createElement("img");
+      const homeLink = document.querySelector(".md-header__button.md-logo");
+
+      content.className = "japan-mug-popup korea-mug-popup";
+      title.textContent = location.name;
+      imageFrame.className = "japan-mug-popup__image";
+      image.src = new URL(`assets/${location.image}`, homeLink?.href || window.location.href).href;
+      image.alt = `스타벅스 안녕 시리즈 ${location.name} 머그`;
+      imageFrame.append(image);
+      content.append(title, imageFrame);
+      marker.bindPopup(content, { minWidth: 210, maxWidth: 460 });
+    } else {
+      marker.bindPopup(`<strong>${location.name}</strong>`);
+    }
+  });
+
+  const bounds = L.latLngBounds(koreaMugLocations.map((location) => location.coordinates));
+  map.fitBounds(bounds, { padding: [30, 30] });
+}
+
+initializeKoreaMugMap();
+
 if (typeof document$ !== "undefined") {
-  document$.subscribe(initializeVisitedMap);
+  document$.subscribe(() => {
+    initializeVisitedMap();
+    initializeJapanMugMap();
+    initializeKoreaMugMap();
+  });
 }

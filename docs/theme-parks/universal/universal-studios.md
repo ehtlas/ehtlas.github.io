@@ -1,6 +1,20 @@
 # Universal Studios
 
-## 어트랙션
+## 1. 파크 목록
+
+<div class="info-button-row" markdown>
+
+[:lucide-clapperboard: Orlando Resort](universal-orlando-resort.md){ .info-button }
+[:lucide-clapperboard: Studios Hollywood](../../../index.md#universal-hollywood){ .info-button }
+[:lucide-clapperboard: Studios Japan](universal-studios-japan.md){ .info-button }
+[:lucide-clapperboard: Studios Singapore](universal-studios-singapore.md){ .info-button }
+[:lucide-clapperboard: Beijing Resort](universal-beijing-resort.md){ .info-button }
+
+</div>
+
+---
+
+## 2. 어트랙션
 
 <div class="attraction-table" markdown>
 
@@ -19,4 +33,4 @@
 
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
 
-<span class="page-updated-source" data-updated="August 25, 2026 at 02:54 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 15:01 (KST)"></span>

@@ -1,6 +1,21 @@
 # Disney Parks
 
-## 어트랙션
+## 1. 파크 목록
+
+<div class="info-button-row" markdown>
+
+[:lucide-castle: Disneyland Resort](disneyland-resort.md){ .info-button }
+[:lucide-castle: Walt Disney World](walt-disney-world.md){ .info-button }
+[:lucide-castle: Tokyo Disney Resort](tokyo-disney-resort.md){ .info-button }
+[:lucide-castle: Disneyland Paris](disneyland-paris.md){ .info-button }
+[:lucide-castle: Hong Kong Disneyland](hong-kong-disneyland.md){ .info-button }
+[:lucide-castle: Shanghai Disneyland](shanghai-disneyland.md){ .info-button }
+
+</div>
+
+---
+
+## 2. 어트랙션
 
 <div class="attraction-table" markdown>
 
@@ -34,4 +49,4 @@
 
 [:lucide-compass: 홈](../../../index.md){ .home-return-link }
 
-<span class="page-updated-source" data-updated="August 25, 2026 at 02:52 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 14:57 (KST)"></span>

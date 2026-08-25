@@ -255,10 +255,16 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: .65rem;
+  column-gap: .65rem;
+  row-gap: 1rem;
 }
 
 .info-button-row p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: .65rem;
+  row-gap: 1rem;
   margin: 0;
 }
 
@@ -311,6 +317,10 @@
   color: var(--md-default-fg-color--light);
   font-size: .68rem;
   text-align: right;
+}
+
+.md-nav--primary .nav-map-link {
+  font-weight: 700;
 }
 
 .attraction-table {
@@ -368,7 +378,7 @@
   font-weight: 700;
 }
 
-#travel-map {
+:is(#travel-map, #japan-mug-map, #korea-mug-map) {
   position: relative;
   z-index: 0;
   isolation: isolate;
@@ -382,43 +392,132 @@
   background: color-mix(in srgb, var(--md-default-fg-color) 5%, var(--md-default-bg-color));
 }
 
-#travel-map .leaflet-popup-content {
+.mug-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.mug-name-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .55rem;
+  margin: 1rem 0;
+}
+
+.mug-name-grid span {
+  padding: .7rem .85rem;
+  border: 1px solid color-mix(in srgb, var(--travel-accent) 24%, var(--md-default-fg-color--lightest));
+  border-radius: .8rem;
+  background: color-mix(in srgb, var(--travel-accent) 5%, var(--md-default-bg-color));
+  font-weight: 600;
+  text-align: center;
+}
+
+.korea-mug-grid .mug-image-crop,
+.korea-mug-popup .japan-mug-popup__image {
+  aspect-ratio: 1.75 / 1;
+}
+
+.mug-card {
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 1rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 .25rem .9rem rgba(23, 75, 79, .08);
+}
+
+.mug-card > strong {
+  display: block;
+  padding: .75rem .9rem;
+}
+
+.mug-image-crop {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+  background: #fff;
+}
+
+.mug-image-crop img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 52%;
+}
+
+:is(#japan-mug-map, #korea-mug-map) .leaflet-popup-content {
+  width: auto !important;
+  margin: .65rem;
+}
+
+.japan-mug-popup {
+  width: min(420px, calc(100vw - 80px));
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .8rem;
+  background: var(--md-default-bg-color);
+}
+
+.japan-mug-popup > strong {
+  display: block;
+  padding: .65rem .75rem;
+}
+
+.japan-mug-popup__image {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+  background: #fff;
+}
+
+.japan-mug-popup__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 52%;
+}
+
+:is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-popup-content {
   margin: .8rem 1rem;
   line-height: 1.5;
 }
 
-#travel-map .leaflet-popup-content strong {
+:is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-popup-content strong {
   display: block;
   margin-bottom: .15rem;
   color: #174b4f;
 }
 
-#travel-map .leaflet-control-attribution {
+:is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-control-attribution {
   font-size: .55rem;
 }
 
-[data-md-color-scheme="slate"] #travel-map .leaflet-tile-pane {
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-tile-pane {
   filter: brightness(.62) invert(1) contrast(1.2) hue-rotate(180deg) saturate(.55);
 }
 
-[data-md-color-scheme="slate"] #travel-map.leaflet-container,
-[data-md-color-scheme="slate"] #travel-map .leaflet-control-zoom a,
-[data-md-color-scheme="slate"] #travel-map .leaflet-popup-content-wrapper,
-[data-md-color-scheme="slate"] #travel-map .leaflet-popup-tip {
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map).leaflet-container,
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-control-zoom a,
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-popup-content-wrapper,
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-popup-tip {
   color: var(--md-default-fg-color);
   background: var(--md-default-bg-color);
 }
 
-[data-md-color-scheme="slate"] #travel-map .leaflet-control-zoom a {
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-control-zoom a {
   border-color: var(--md-default-fg-color--lightest);
 }
 
-[data-md-color-scheme="slate"] #travel-map .leaflet-control-attribution {
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-control-attribution {
   color: var(--md-default-fg-color--light);
   background: color-mix(in srgb, var(--md-default-bg-color) 88%, transparent);
 }
 
-[data-md-color-scheme="slate"] #travel-map .leaflet-control-attribution a {
+[data-md-color-scheme="slate"] :is(#travel-map, #japan-mug-map, #korea-mug-map) .leaflet-control-attribution a {
   color: var(--md-accent-fg-color);
 }
 
@@ -426,11 +525,13 @@
   .destination-grid { grid-template-columns: 1fr; }
   .highlight-grid { grid-template-columns: 1fr; }
   .exchange-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  #travel-map { height: 20rem; }
+  :is(#travel-map, #japan-mug-map, #korea-mug-map) { height: 20rem; }
+  .mug-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media screen and (min-width: 44.984375em) and (max-width: 76.234375em) {
   .exchange-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .mug-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 @media screen and (min-width: 76.234375em) {

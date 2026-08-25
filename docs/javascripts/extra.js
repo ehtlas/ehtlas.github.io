@@ -34,6 +34,7 @@ function configureMapNavigation() {
     const mapUrl = new URL(homeLink.href);
     mapUrl.hash = "visited-map";
     link.href = mapUrl.href;
+    link.classList.add("nav-map-link");
   });
 }
 
@@ -81,6 +82,55 @@ function configurePrimaryNavigation() {
         }
       }, { capture: true });
     }
+  });
+}
+
+function configureOverviewNavigation() {
+  const homeLink = document.querySelector(".md-header__button.md-logo");
+  if (!homeLink) return;
+
+  const overviewSections = document.querySelectorAll(
+    ".md-nav--primary .md-nav__item--nested",
+  );
+
+  overviewSections.forEach((section) => {
+    const label = section.querySelector(":scope > .md-nav__link");
+    const name = label?.querySelector(".md-ellipsis")?.textContent.trim();
+    const directOverviewPaths = {
+      "한국": "places/korea/korea/",
+      "일본": "places/japan/japan/",
+      "Disney Parks": "theme-parks/disney/disney-parks/",
+      "Disneyland Resort": "theme-parks/disney/disneyland-resort/",
+      "Walt Disney World": "theme-parks/disney/walt-disney-world/",
+      "Tokyo Disney Resort": "theme-parks/disney/tokyo-disney-resort/",
+      "Disneyland Paris": "theme-parks/disney/disneyland-paris/",
+      "Universal Studios": "theme-parks/universal/universal-studios/",
+      "Orlando Resort": "theme-parks/universal/universal-orlando-resort/",
+    };
+    const overviewHref = directOverviewPaths[name]
+      ? new URL(directOverviewPaths[name], homeLink.href).href
+      : null;
+
+    if (!label || !overviewHref || section.dataset.overviewLinkReady) return;
+
+    section.dataset.overviewLinkReady = "true";
+    label.setAttribute("aria-label", `${name} 페이지로 이동`);
+
+    label.addEventListener("click", (event) => {
+      if (event.target.closest(".md-nav__icon")) return;
+
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      window.location.assign(overviewHref);
+    }, { capture: true });
+
+    label.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter") return;
+
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      window.location.assign(overviewHref);
+    }, { capture: true });
   });
 }
 
@@ -347,6 +397,7 @@ function schedulePlaceGridLayout() {
 enableHeaderHomeLink();
 configureMapNavigation();
 configurePrimaryNavigation();
+configureOverviewNavigation();
 showLastUpdatedTime();
 updateExchangeRates();
 configureExchangeChart();
@@ -371,6 +422,7 @@ if (typeof document$ !== "undefined") {
     enableHeaderHomeLink();
     configureMapNavigation();
     configurePrimaryNavigation();
+    configureOverviewNavigation();
     showLastUpdatedTime();
     updateExchangeRates();
     configureExchangeChart();

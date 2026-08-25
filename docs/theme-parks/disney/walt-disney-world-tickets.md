@@ -1,7 +1,3 @@
----
-icon: lucide/ticket
----
-
 # Walt Disney World Tickets
 
 ## 🎟️ 올랜도 Walt Disney World 입장권 총정리
@@ -161,4 +157,4 @@ Walt Disney World Resort에는 총 **4개의 메인 테마파크**가 있습니�
 
 [:lucide-arrow-left: Walt Disney World로 돌아가기](walt-disney-world.md){ .home-return-link }
 
-<span class="page-updated-source" data-updated="August 24, 2026 at 23:36 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 14:41 (KST)"></span>

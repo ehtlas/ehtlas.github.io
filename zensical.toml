@@ -13,7 +13,7 @@ nav = [
   { "홈" = "index.md" },
   { "장소" = [
     { "한국" = [
-      { "서울" = "index.md#seoul" },
+      { "서울" = "places/korea/seoul.md" },
     ] },
     { "캘리포니아" = [
       { "로스앤젤레스" = "places/california/los-angeles.md" },
@@ -25,7 +25,7 @@ nav = [
       { "도쿄" = "places/japan/tokyo.md" },
       { "오사카" = "places/japan/osaka.md" },
       { "나고야" = "places/japan/nagoya.md" },
-      { "삿포로" = "index.md#sapporo" },
+      { "삿포로" = "places/japan/sapporo.md" },
     ] },
     { "싱가포르" = [
       { "싱가포르 (28.winter)" = "places/singapore/singapore.md" },
@@ -36,38 +36,32 @@ nav = [
   ] },
   { "테마파크" = [
     { "Disney Parks" = [
-      { "Overview" = "theme-parks/disney/disney-parks.md" },
       { "Disneyland Resort" = [
-        { "Disneyland Park" = "index.md#disneyland-park" },
-        { "California Adventure" = "index.md#california-adventure" },
+        { "Disneyland Park" = "theme-parks/disney/disneyland-park.md" },
+        { "California Adventure" = "theme-parks/disney/california-adventure.md" },
       ] },
       { "Walt Disney World" = [
-        { "Overview" = "theme-parks/disney/walt-disney-world.md" },
-        { "Tickets" = "theme-parks/disney/walt-disney-world-tickets.md" },
         { "Magic Kingdom" = "theme-parks/disney/magic-kingdom.md" },
-        { "EPCOT" = "index.md#epcot" },
-        { "Hollywood Studios" = "index.md#hollywood-studios" },
-        { "Animal Kingdom" = "index.md#animal-kingdom" },
+        { "EPCOT" = "theme-parks/disney/epcot.md" },
+        { "Hollywood Studios" = "theme-parks/disney/hollywood-studios.md" },
+        { "Animal Kingdom" = "theme-parks/disney/animal-kingdom.md" },
       ] },
       { "Tokyo Disney Resort" = [
         { "Tokyo Disneyland" = "theme-parks/disney/tokyo-disneyland.md" },
         { "Tokyo DisneySea" = "theme-parks/disney/tokyo-disneysea.md" },
       ] },
       { "Disneyland Paris" = [
-        { "Disneyland Park" = "index.md#disneyland-park-paris" },
-        { "Disney Adventure World" = "index.md#disney-adventure-world" },
+        { "Disneyland Park" = "theme-parks/disney/disneyland-park-paris.md" },
+        { "Adventure World" = "theme-parks/disney/disney-adventure-world.md" },
       ] },
       { "Hong Kong Disneyland" = "theme-parks/disney/hong-kong-disneyland.md" },
       { "Shanghai Disneyland" = "theme-parks/disney/shanghai-disneyland.md" },
     ] },
     { "Universal Studios" = [
-      { "Overview" = "theme-parks/universal/universal-studios.md" },
       { "Orlando Resort" = [
-        { "Overview" = "theme-parks/universal/universal-orlando-resort.md" },
-        { "Tickets" = "theme-parks/universal/universal-orlando-resort-tickets.md" },
-        { "Studios Florida" = "index.md#studios-florida" },
-        { "Islands of Adventure" = "index.md#islands-of-adventure" },
-        { "Epic Universe" = "index.md#epic-universe" },
+        { "Studios Florida" = "theme-parks/universal/universal-studios-florida.md" },
+        { "Islands of Adventure" = "theme-parks/universal/universal-islands-of-adventure.md" },
+        { "Epic Universe" = "theme-parks/universal/epic-universe.md" },
       ] },
       { "Studios Hollywood" = "index.md#universal-hollywood" },
       { "Studios Japan" = "theme-parks/universal/universal-studios-japan.md" },
