@@ -51,7 +51,7 @@ hide:
 
 ### 🇯🇵 일본
 
-- 도쿄
+- <span id="tokyo"></span>[도쿄](places/japan/tokyo.md){ .park-detail-link }
 - 오사카
 - 나고야
 - <span id="sapporo"></span>삿포로
@@ -196,9 +196,22 @@ hide:
 
 ### <span id="history-2006"></span>2006
 
+<div class="park-group" markdown>
+
+**🇯🇵 일본**
+
+- 도쿄
+- 교토
+
+</div>
+
+<div class="park-group" markdown>
+
 **🇳🇿 뉴질랜드**
 
 - 오클랜드
+
+</div>
 
 </article>
 
@@ -468,4 +481,4 @@ hide:
 
 <div id="travel-map" aria-label="방문한 도시 지도"></div>
 
-<span class="page-updated-source" data-updated="August 25, 2026 at 02:53 (KST)"></span>
+<span class="page-updated-source" data-updated="August 25, 2026 at 13:47 (KST)"></span>

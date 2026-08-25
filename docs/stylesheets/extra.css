@@ -262,6 +262,22 @@
   margin: 0;
 }
 
+.custom-map-embed {
+  overflow: hidden;
+  width: 100%;
+  margin: 1rem 0;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 14%, transparent);
+  border-radius: 1rem;
+  background: var(--md-default-bg-color);
+}
+
+.custom-map-embed iframe {
+  display: block;
+  width: 100%;
+  height: clamp(22rem, 62vh, 38rem);
+  border: 0;
+}
+
 .home-return-link {
   display: inline-flex;
   align-items: center;
