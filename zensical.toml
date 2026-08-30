@@ -12,7 +12,7 @@ site_description = "여행 준비에 필요한 정보를 한곳에 정리한 여
 nav = [
   { "홈" = "index.md" },
   { "장소" = [
-    { "한국" = [
+    { "대한민국" = [
       { "서울" = "places/korea/seoul.md" },
     ] },
     { "캘리포니아" = [

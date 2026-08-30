@@ -26,7 +26,7 @@ hide:
 
 <article class="destination-card" markdown>
 
-### [🇰🇷 한국](places/korea/korea.md){ .park-detail-link }
+### [🇰🇷 대한민국](places/korea/korea.md){ .park-detail-link }
 
 - <span id="seoul"></span>[서울](places/korea/seoul.md){ .park-detail-link }
 

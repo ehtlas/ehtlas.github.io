@@ -2,7 +2,7 @@
 icon: lucide/map-pin
 ---
 
-# 🇰🇷 한국
+# 🇰🇷 대한민국
 
 ## 1. 도시
 
@@ -16,7 +16,7 @@ icon: lucide/map-pin
 
 ## 2. 스타벅스 머그
 
-<div id="korea-mug-map" aria-label="스타벅스 안녕 시리즈 한국 지도"></div>
+<div id="korea-mug-map" aria-label="스타벅스 안녕 시리즈 대한민국 지도"></div>
 
 ### 2.1. 디스커버리 시리즈
 
@@ -25,14 +25,14 @@ icon: lucide/map-pin
     <strong>KOREA</strong>
 
     <div class="mug-image-crop">
-      <img src="../../assets/starbucks-discovery-korea.png" alt="스타벅스 디스커버리 시리즈 한국 머그">
+      <img src="../../assets/starbucks-discovery-korea.png" alt="스타벅스 디스커버리 시리즈 대한민국 머그">
     </div>
   </article>
 </div>
 
 ### 2.2. 안녕 시리즈
 
-한국 지도 위에 안녕 시리즈 머그의 지역을 표시합니다. 핀을 누르면 지역명을 확인할 수 있습니다.
+대한민국 지도 위에 안녕 시리즈 머그의 지역을 표시합니다. 핀을 누르면 지역명을 확인할 수 있습니다.
 
 <div class="mug-grid korea-mug-grid">
   <article class="mug-card">
