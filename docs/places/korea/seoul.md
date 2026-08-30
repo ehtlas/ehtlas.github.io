@@ -2,7 +2,7 @@
 icon: lucide/map-pin
 ---
 
-# 서울
+# 서울 (Seoul)
 
 [:lucide-arrow-left: 대한민국으로 돌아가기](korea.md){ .home-return-link }
 

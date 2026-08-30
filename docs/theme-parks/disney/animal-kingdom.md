@@ -1,4 +1,4 @@
-# Animal Kingdom
+# 디즈니 애니멀 킹덤 (Disney's Animal Kingdom)
 
 ## 1. 하이라이트
 

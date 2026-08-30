@@ -2,7 +2,7 @@
 icon: lucide/coffee
 ---
 
-# 마리나 베이 전망 애프터눈 티 & 바
+# 마리나 베이 전망 애프터눈 티 & 바 (Marina Bay View Afternoon Tea & Bar)
 
 ## 🫖 SKAI
 

@@ -1,4 +1,4 @@
-# Shanghai Disneyland
+# 상하이 디즈니랜드 (Shanghai Disneyland)
 
 ## 1. 하이라이트
 

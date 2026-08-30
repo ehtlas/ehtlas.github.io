@@ -1,4 +1,4 @@
-# Universal Beijing Resort
+# 유니버설 베이징 리조트 (Universal Beijing Resort)
 
 ## 1. 하이라이트
 

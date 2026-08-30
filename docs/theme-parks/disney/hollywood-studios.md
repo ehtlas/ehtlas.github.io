@@ -1,4 +1,4 @@
-# Hollywood Studios
+# 디즈니 할리우드 스튜디오 (Disney's Hollywood Studios)
 
 ## 1. 하이라이트
 

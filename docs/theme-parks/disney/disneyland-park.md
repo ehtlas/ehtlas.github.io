@@ -1,4 +1,4 @@
-# Disneyland Park
+# 디즈니랜드 파크 (Disneyland Park)
 
 ## 1. 하이라이트
 

@@ -1,4 +1,4 @@
-# Universal Islands of Adventure
+# 유니버설 아일랜즈 오브 어드벤처 (Universal Islands of Adventure)
 
 ## 1. 하이라이트
 

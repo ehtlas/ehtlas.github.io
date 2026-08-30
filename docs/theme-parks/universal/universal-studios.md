@@ -1,4 +1,4 @@
-# Universal Studios
+# 유니버설 스튜디오 (Universal Studios)
 
 ## 1. 파크 목록
 

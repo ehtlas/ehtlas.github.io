@@ -1,4 +1,4 @@
-# Disney Adventure World
+# 디즈니 어드벤처 월드 (Disney Adventure World)
 
 ## 1. 하이라이트
 

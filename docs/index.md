@@ -33,9 +33,12 @@ hide:
 
 <article class="destination-card" markdown>
 
-### 🇺🇸 캘리포니아
+### [🇺🇸 캘리포니아](places/california/california.md){ .park-detail-link }
 
-- 로스앤젤레스
+- [샌프란시스코](places/california/san-francisco.md){ .park-detail-link }
+- [로스앤젤레스](places/california/los-angeles.md){ .park-detail-link }
+- [캘리포니아 1번 주도](places/california/california-state-route-1.md){ .park-detail-link }
+- [샌프란시스코 & 로스앤젤레스](places/california/san-francisco-to-los-angeles.md){ .park-detail-link }
 
 </article>
 
@@ -82,79 +85,79 @@ hide:
 
 <article class="destination-card" markdown>
 
-### :material-castle: [Disney Parks](theme-parks/disney/disney-parks.md){ .park-detail-link }
+### :material-castle: [디즈니 파크](theme-parks/disney/disney-parks.md){ .park-detail-link }
 
 <div class="park-group" markdown>
 
-<span id="disneyland-resort"></span>**[Disneyland Resort](theme-parks/disney/disneyland-resort.md){ .park-detail-link }**
+<span id="disneyland-resort"></span>**[디즈니랜드 리조트](theme-parks/disney/disneyland-resort.md){ .park-detail-link }**
 
-- <span id="disneyland-park"></span>[Disneyland Park](theme-parks/disney/disneyland-park.md){ .park-detail-link }
-- <span id="california-adventure"></span>[California Adventure](theme-parks/disney/california-adventure.md){ .park-detail-link }
+- <span id="disneyland-park"></span>[디즈니랜드 파크](theme-parks/disney/disneyland-park.md){ .park-detail-link }
+- <span id="california-adventure"></span>[디즈니 캘리포니아 어드벤처](theme-parks/disney/california-adventure.md){ .park-detail-link }
 
 </div>
 
 <div class="park-group" markdown>
 
-<span id="walt-disney-world"></span>**[Walt Disney World](theme-parks/disney/walt-disney-world.md){ .park-detail-link }**
+<span id="walt-disney-world"></span>**[월트 디즈니 월드](theme-parks/disney/walt-disney-world.md){ .park-detail-link }**
 
-- <span id="magic-kingdom"></span>[Magic Kingdom](theme-parks/disney/magic-kingdom.md){ .park-detail-link }
-- <span id="epcot"></span>[EPCOT](theme-parks/disney/epcot.md){ .park-detail-link }
-- <span id="hollywood-studios"></span>[Hollywood Studios](theme-parks/disney/hollywood-studios.md){ .park-detail-link }
-- <span id="animal-kingdom"></span>[Animal Kingdom](theme-parks/disney/animal-kingdom.md){ .park-detail-link }
-
-</div>
-
-<div class="park-group" markdown>
-
-<span id="tokyo-disney-resort"></span>**[Tokyo Disney Resort](theme-parks/disney/tokyo-disney-resort.md){ .park-detail-link }**
-
-- <span id="tokyo-disneyland"></span>[Tokyo Disneyland](theme-parks/disney/tokyo-disneyland.md){ .park-detail-link }
-- <span id="tokyo-disneysea"></span>[Tokyo DisneySea](theme-parks/disney/tokyo-disneysea.md){ .park-detail-link }
+- <span id="magic-kingdom"></span>[매직 킹덤](theme-parks/disney/magic-kingdom.md){ .park-detail-link }
+- <span id="epcot"></span>[엡콧](theme-parks/disney/epcot.md){ .park-detail-link }
+- <span id="hollywood-studios"></span>[디즈니 할리우드 스튜디오](theme-parks/disney/hollywood-studios.md){ .park-detail-link }
+- <span id="animal-kingdom"></span>[디즈니 애니멀 킹덤](theme-parks/disney/animal-kingdom.md){ .park-detail-link }
 
 </div>
 
 <div class="park-group" markdown>
 
-<span id="disneyland-paris"></span>**[Disneyland Paris](theme-parks/disney/disneyland-paris.md){ .park-detail-link }**
+<span id="tokyo-disney-resort"></span>**[도쿄 디즈니 리조트](theme-parks/disney/tokyo-disney-resort.md){ .park-detail-link }**
 
-- <span id="disneyland-park-paris"></span>[Disneyland Park](theme-parks/disney/disneyland-park-paris.md){ .park-detail-link }
-- <span id="disney-adventure-world"></span>[Adventure World](theme-parks/disney/disney-adventure-world.md){ .park-detail-link }
+- <span id="tokyo-disneyland"></span>[도쿄 디즈니랜드](theme-parks/disney/tokyo-disneyland.md){ .park-detail-link }
+- <span id="tokyo-disneysea"></span>[도쿄 디즈니씨](theme-parks/disney/tokyo-disneysea.md){ .park-detail-link }
 
 </div>
 
-- <span id="hong-kong-disneyland"></span>[Hong Kong Disneyland](theme-parks/disney/hong-kong-disneyland.md){ .park-detail-link }
-- <span id="shanghai-disneyland"></span>[Shanghai Disneyland](theme-parks/disney/shanghai-disneyland.md){ .park-detail-link }
+<div class="park-group" markdown>
+
+<span id="disneyland-paris"></span>**[디즈니랜드 파리](theme-parks/disney/disneyland-paris.md){ .park-detail-link }**
+
+- <span id="disneyland-park-paris"></span>[디즈니랜드 파크](theme-parks/disney/disneyland-park-paris.md){ .park-detail-link }
+- <span id="disney-adventure-world"></span>[디즈니 어드벤처 월드](theme-parks/disney/disney-adventure-world.md){ .park-detail-link }
+
+</div>
+
+- <span id="hong-kong-disneyland"></span>[홍콩 디즈니랜드](theme-parks/disney/hong-kong-disneyland.md){ .park-detail-link }
+- <span id="shanghai-disneyland"></span>[상하이 디즈니랜드](theme-parks/disney/shanghai-disneyland.md){ .park-detail-link }
 
 </article>
 
 <article class="destination-card" markdown>
 
-### :material-movie-open: [Universal Studios](theme-parks/universal/universal-studios.md){ .park-detail-link #universal-parks }
+### :material-movie-open: [유니버설 스튜디오](theme-parks/universal/universal-studios.md){ .park-detail-link #universal-parks }
 
 <div class="park-group" markdown>
 
-<span id="universal-orlando"></span>**[Orlando Resort](theme-parks/universal/universal-orlando-resort.md){ .park-detail-link }**
+<span id="universal-orlando"></span>**[유니버설 올랜도 리조트](theme-parks/universal/universal-orlando-resort.md){ .park-detail-link }**
 
-- <span id="studios-florida"></span>[Studios Florida](theme-parks/universal/universal-studios-florida.md){ .park-detail-link }
-- <span id="islands-of-adventure"></span>[Islands of Adventure](theme-parks/universal/universal-islands-of-adventure.md){ .park-detail-link }
-- <span id="epic-universe"></span>[Epic Universe](theme-parks/universal/epic-universe.md){ .park-detail-link }
+- <span id="studios-florida"></span>[유니버설 스튜디오 플로리다](theme-parks/universal/universal-studios-florida.md){ .park-detail-link }
+- <span id="islands-of-adventure"></span>[유니버설 아일랜즈 오브 어드벤처](theme-parks/universal/universal-islands-of-adventure.md){ .park-detail-link }
+- <span id="epic-universe"></span>[에픽 유니버스](theme-parks/universal/epic-universe.md){ .park-detail-link }
 
 </div>
 
-- <span id="universal-hollywood"></span>Studios Hollywood
-- <span id="universal-japan"></span>[Studios Japan](theme-parks/universal/universal-studios-japan.md){ .park-detail-link }
-- <span id="universal-singapore"></span>[Studios Singapore](theme-parks/universal/universal-studios-singapore.md){ .park-detail-link }
-- <span id="universal-beijing"></span>[Beijing Resort](theme-parks/universal/universal-beijing-resort.md){ .park-detail-link }
+- <span id="universal-hollywood"></span>유니버설 스튜디오 할리우드
+- <span id="universal-japan"></span>[유니버설 스튜디오 재팬](theme-parks/universal/universal-studios-japan.md){ .park-detail-link }
+- <span id="universal-singapore"></span>[유니버설 스튜디오 싱가포르](theme-parks/universal/universal-studios-singapore.md){ .park-detail-link }
+- <span id="universal-beijing"></span>[유니버설 베이징 리조트](theme-parks/universal/universal-beijing-resort.md){ .park-detail-link }
 
 </article>
 
 <article class="destination-card" markdown>
 
-### :material-ferris-wheel: Others { #other-parks }
+### :material-ferris-wheel: 기타 { #other-parks }
 
-- <span id="warner-bros-tokyo"></span>Warner Bros. Studio Tour Tokyo
-- <span id="futuroscope"></span>Futuroscope (France)
-- <span id="efteling"></span>Efteling (Netherlands)
+- <span id="warner-bros-tokyo"></span>워너 브라더스 스튜디오 투어 도쿄
+- <span id="futuroscope"></span>퓌튀로스코프
+- <span id="efteling"></span>에프텔링
 
 </article>
 

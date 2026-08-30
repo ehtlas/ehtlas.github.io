@@ -1,4 +1,4 @@
-# Universal Studios Japan
+# 유니버설 스튜디오 재팬 (Universal Studios Japan)
 
 ## 1. 하이라이트
 

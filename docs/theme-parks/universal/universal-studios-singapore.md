@@ -1,4 +1,4 @@
-# Universal Studios Singapore
+# 유니버설 스튜디오 싱가포르 (Universal Studios Singapore)
 
 유니버설 스튜디오 싱가포르
 

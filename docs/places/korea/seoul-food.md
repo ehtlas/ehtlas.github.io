@@ -2,7 +2,7 @@
 icon: lucide/utensils
 ---
 
-# 서울 음식
+# 서울 음식 (Seoul Food)
 
 서울에서 방문할 음식점과 먹어볼 메뉴를 정리합니다.
 

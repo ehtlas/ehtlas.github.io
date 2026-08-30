@@ -1,4 +1,4 @@
-# Disneyland Paris
+# 디즈니랜드 파리 (Disneyland Paris)
 
 ## 1. 파크 목록
 

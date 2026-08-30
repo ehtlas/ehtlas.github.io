@@ -1,4 +1,4 @@
-# Orlando Resort
+# 유니버설 올랜도 리조트 (Universal Orlando Resort)
 
 ## 1. 파크 목록
 

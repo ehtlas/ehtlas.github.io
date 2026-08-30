@@ -1,4 +1,4 @@
-# Universal Orlando Resort Tickets
+# 유니버설 올랜도 리조트 티켓 (Universal Orlando Resort Tickets)
 
 ## 🎢 Universal Orlando Resort 입장권 총정리
 

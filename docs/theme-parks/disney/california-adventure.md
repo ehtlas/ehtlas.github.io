@@ -1,4 +1,4 @@
-# California Adventure
+# 디즈니 캘리포니아 어드벤처 (Disney California Adventure)
 
 ## 1. 하이라이트
 

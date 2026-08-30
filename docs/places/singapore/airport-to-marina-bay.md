@@ -2,7 +2,7 @@
 icon: lucide/plane
 ---
 
-# ✈️ 창이공항 → City Hall
+# ✈️ 창이공항 → 시티홀 (Changi Airport → City Hall)
 
 ## 🚇 MRT
 

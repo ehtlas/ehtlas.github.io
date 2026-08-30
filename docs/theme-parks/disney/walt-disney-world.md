@@ -1,4 +1,4 @@
-# Walt Disney World
+# 월트 디즈니 월드 (Walt Disney World)
 
 ## 1. 파크 목록
 

@@ -99,6 +99,8 @@ function configureOverviewNavigation() {
     const directOverviewPaths = {
       "대한민국": "places/korea/korea/",
       "서울": "places/korea/seoul/",
+      "캘리포니아": "places/california/california/",
+      "샌프란시스코": "places/california/san-francisco/",
       "일본": "places/japan/japan/",
       "Disney Parks": "theme-parks/disney/disney-parks/",
       "Disneyland Resort": "theme-parks/disney/disneyland-resort/",
@@ -112,7 +114,11 @@ function configureOverviewNavigation() {
       ? new URL(directOverviewPaths[name], homeLink.href).href
       : null;
 
-    if (!label || !overviewHref || section.dataset.overviewLinkReady) return;
+    if (!label || !overviewHref) return;
+
+    label.href = overviewHref;
+
+    if (section.dataset.overviewLinkReady) return;
 
     section.dataset.overviewLinkReady = "true";
     label.setAttribute("aria-label", `${name} 페이지로 이동`);
@@ -132,6 +138,23 @@ function configureOverviewNavigation() {
       event.stopImmediatePropagation();
       window.location.assign(overviewHref);
     }, { capture: true });
+  });
+}
+
+function configureBreadcrumbNavigation() {
+  const homeLink = document.querySelector(".md-header__button.md-logo");
+  if (!homeLink) return;
+
+  const overviewPaths = {
+    "캘리포니아": "places/california/california/",
+    "샌프란시스코": "places/california/san-francisco/",
+  };
+
+  document.querySelectorAll(".md-path__link").forEach((link) => {
+    const name = link.textContent.trim();
+    if (overviewPaths[name]) {
+      link.href = new URL(overviewPaths[name], homeLink.href).href;
+    }
   });
 }
 
@@ -399,6 +422,7 @@ enableHeaderHomeLink();
 configureMapNavigation();
 configurePrimaryNavigation();
 configureOverviewNavigation();
+configureBreadcrumbNavigation();
 showLastUpdatedTime();
 updateExchangeRates();
 configureExchangeChart();
@@ -424,6 +448,7 @@ if (typeof document$ !== "undefined") {
     configureMapNavigation();
     configurePrimaryNavigation();
     configureOverviewNavigation();
+    configureBreadcrumbNavigation();
     showLastUpdatedTime();
     updateExchangeRates();
     configureExchangeChart();

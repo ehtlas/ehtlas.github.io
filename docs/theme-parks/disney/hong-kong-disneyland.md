@@ -1,4 +1,4 @@
-# Hong Kong Disneyland
+# 홍콩 디즈니랜드 (Hong Kong Disneyland)
 
 ## 1. 하이라이트
 

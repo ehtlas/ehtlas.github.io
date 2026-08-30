@@ -1,4 +1,4 @@
-# Tokyo DisneySea
+# 도쿄 디즈니씨 (Tokyo DisneySea)
 
 ## 1. 하이라이트
 

@@ -2,7 +2,7 @@
 icon: lucide/map-pin
 ---
 
-# 🇰🇷 대한민국
+# 🇰🇷 대한민국 (South Korea)
 
 ## 1. 도시
 

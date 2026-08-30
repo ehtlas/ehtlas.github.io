@@ -1,4 +1,4 @@
-# Universal Studios Florida
+# 유니버설 스튜디오 플로리다 (Universal Studios Florida)
 
 ## 1. 하이라이트
 

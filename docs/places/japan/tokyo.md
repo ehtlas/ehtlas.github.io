@@ -2,7 +2,7 @@
 icon: lucide/map-pin
 ---
 
-# 도쿄
+# 도쿄 (Tokyo)
 
 ## 1. 주요 지역
 

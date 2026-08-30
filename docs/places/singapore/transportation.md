@@ -2,7 +2,7 @@
 icon: lucide/train-front
 ---
 
-# 싱가포르 대중교통
+# 싱가포르 대중교통 (Singapore Public Transportation)
 
 MRT와 버스가 잘 갖춰져 있어 대중교통만으로 대부분의 관광지를 이동할 수 있습니다.
 

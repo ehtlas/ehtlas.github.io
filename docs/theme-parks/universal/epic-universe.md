@@ -1,4 +1,4 @@
-# Epic Universe
+# 에픽 유니버스 (Epic Universe)
 
 ## 1. 하이라이트
 
@@ -60,13 +60,43 @@
 
 ---
 
-## 4. 외부 링크
+## 4. 어트랙션 요약
 
-[나무위키 — 유니버설 에픽 유니버스](https://namu.wiki/w/%EC%9C%A0%EB%8B%88%EB%B2%84%EC%84%A4%20%EC%97%90%ED%94%BD%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4){ .park-detail-link }
+<div class="attraction-table attraction-summary-table" markdown>
+
+| 조기 입장 | 존 | 이름 | 유형 | Express Pass | 일평균 대기시간 | 도파민 | 비고 |
+| :---: | --- | --- | :---: | :---: | :---: | :---: | --- |
+|  | 해리포터 | **Harry Potter** | 어트랙션 | ✖ | 120분 | ❤️❤️❤️ | 실제 조기 입장 |
+|  | 해리포터 | **Le Cirque Arcanus** | 쇼 | 가능 | - | ❤️❤️ | 일 10회 |
+| ✔ | 셀레스티얼 파크 | **Stardust Racers** | 어트랙션 | 가능 | 60분 | ❤️❤️❤️ | 딜레이 빈번 |
+|  | 드래곤 길들이기 | **Hiccup’s Wing Gliders** | 어트랙션 | 가능 | 70분 | ❤️❤️ |  |
+|  | 드래곤 길들이기 | **Dragon Racer’s Rally** | 어트랙션 | ✖ | 40분 | ❤️ |  |
+|  | 드래곤 길들이기 | **Fyre Drill** | 어트랙션 | 가능 | 70분 | ❤️ | 물총 (물 흠뻑) |
+|  | 드래곤 길들이기 | **Untrainable Dragon** | 쇼 | 가능 | - | ❤️❤️ | 일 10회 |
+| ✔ | 다크 유니버스 | **Monsters Unchained** | 어트랙션 | 가능 | 45분 | ❤️❤️ | 다소 무서움 |
+| ✔ | 다크 유니버스 | **Curse of the Werewolf** | 어트랙션 | 가능 | 60분 | ❤️ |  |
+| ✔ | 닌텐도 월드 | **Mario Kart** | 어트랙션 | 가능 | 160분 | ❤️❤️❤️ | 밴드 지참 |
+|  | 닌텐도 월드 | **Mine-Cart Madness** | 어트랙션 | ✖ | 60분 | ❤️❤️ |  |
+| ✔ | 닌텐도 월드 | **Yoshi’s Adventure** | 어트랙션 | 가능 | 45분 | ❤️ | 잔잔, 어린이용 |
+|  | 파크 중앙 | **Carousel** | 어트랙션 | 가능 |  | ❤️ | 회전목마 |
+
+</div>
+
+- **식당 추천:** 해리포터 존 르 고블렛 느와어(Le Gobelet Noir). 넓은 공간에 비해 사람이 적어 대기가 거의 없고 음식이 빨리 나옵니다. 무료로 얼음을 받을 수 있으며 콘센트가 있어 충전할 수 있습니다.
+- **비 오는 날:** 실외 어트랙션이 중단되면 실내 어트랙션으로 사람들이 몰리므로 해리포터 존으로 먼저 이동하는 것을 추천합니다.
+- **호텔 추천:** Aventura Hotel. 유니버설 공식 홈페이지에서 Early Park Admission을 제공하는 호텔을 확인하세요.
 
 ---
 
-## 5. 어트랙션
+## 5. 외부 링크
+
+[나무위키 — 유니버설 에픽 유니버스](https://namu.wiki/w/%EC%9C%A0%EB%8B%88%EB%B2%84%EC%84%A4%20%EC%97%90%ED%94%BD%20%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4){ .park-detail-link }
+
+[YouTube — 유니버설 스튜디오 올랜도 에픽 유니버스 어트랙션 총정리](https://youtu.be/RZhu2txHUnM?si=5JHR8xDXmcZyDvKw){ .park-detail-link }
+
+---
+
+## 6. 어트랙션
 
 <div class="attraction-table" markdown>
 

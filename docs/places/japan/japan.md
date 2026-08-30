@@ -2,7 +2,7 @@
 icon: lucide/map-pin
 ---
 
-# 🇯🇵 일본
+# 🇯🇵 일본 (Japan)
 
 ## 1. 도시
 

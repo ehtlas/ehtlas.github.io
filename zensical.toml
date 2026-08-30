@@ -19,7 +19,12 @@ nav = [
       ] },
     ] },
     { "캘리포니아" = [
+      { "샌프란시스코" = [
+        { "요세미티" = "places/california/yosemite.md" },
+      ] },
       { "로스앤젤레스" = "places/california/los-angeles.md" },
+      { "캘리포니아 1번 주도" = "places/california/california-state-route-1.md" },
+      { "샌프란시스코 & 로스앤젤레스" = "places/california/san-francisco-to-los-angeles.md" },
     ] },
     { "플로리다" = [
       { "올랜도" = "places/florida/orlando.md" },
@@ -42,6 +47,7 @@ nav = [
       { "Disneyland Resort" = [
         { "Disneyland Park" = "theme-parks/disney/disneyland-park.md" },
         { "California Adventure" = "theme-parks/disney/california-adventure.md" },
+        { "티켓" = "theme-parks/disney/disneyland-resort-tickets.md" },
       ] },
       { "Walt Disney World" = [
         { "Magic Kingdom" = "theme-parks/disney/magic-kingdom.md" },

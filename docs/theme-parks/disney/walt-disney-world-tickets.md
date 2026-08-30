@@ -1,4 +1,4 @@
-# Walt Disney World Tickets
+# 월트 디즈니 월드 티켓 (Walt Disney World Tickets)
 
 ## 🎟️ 올랜도 Walt Disney World 입장권 총정리
 

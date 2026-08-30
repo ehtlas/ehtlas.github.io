@@ -1,4 +1,4 @@
-# Disney Parks
+# 디즈니 파크 (Disney Parks)
 
 ## 1. 파크 목록
 

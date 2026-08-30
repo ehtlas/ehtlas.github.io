@@ -1,4 +1,4 @@
-# Magic Kingdom
+# 매직 킹덤 (Magic Kingdom)
 
 ## 1. 하이라이트
 

@@ -1,4 +1,4 @@
-# Tokyo Disney Resort
+# 도쿄 디즈니 리조트 (Tokyo Disney Resort)
 
 ## 1. 파크 목록
 

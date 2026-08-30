@@ -2,7 +2,7 @@
 icon: lucide/map-pin
 ---
 
-# 🇸🇬 싱가포르
+# 🇸🇬 싱가포르 (Singapore)
 
 ## 1. 주요 지역별 추천 명소
 
