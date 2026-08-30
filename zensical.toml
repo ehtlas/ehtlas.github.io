@@ -13,7 +13,10 @@ nav = [
   { "홈" = "index.md" },
   { "장소" = [
     { "대한민국" = [
-      { "서울" = "places/korea/seoul.md" },
+      { "서울" = [
+        { "개요" = "places/korea/seoul.md" },
+        { "음식" = "places/korea/seoul-food.md" },
+      ] },
     ] },
     { "캘리포니아" = [
       { "로스앤젤레스" = "places/california/los-angeles.md" },

@@ -98,6 +98,7 @@ function configureOverviewNavigation() {
     const name = label?.querySelector(".md-ellipsis")?.textContent.trim();
     const directOverviewPaths = {
       "대한민국": "places/korea/korea/",
+      "서울": "places/korea/seoul/",
       "일본": "places/japan/japan/",
       "Disney Parks": "theme-parks/disney/disney-parks/",
       "Disneyland Resort": "theme-parks/disney/disneyland-resort/",
