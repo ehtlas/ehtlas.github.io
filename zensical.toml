@@ -121,8 +121,8 @@ extra_javascript = [
 
 [project.theme]
 # variant = "classic"
-# custom_dir = "overrides"
-favicon = "assets/favicon.svg"
+custom_dir = "overrides"
+favicon = "assets/atlas36-icon-v3.svg"
 language = "ko"
 features = [
   "announce.dismiss",

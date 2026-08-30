@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+  <title>{{ config.site_name }}</title>
+{% endblock %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="icon" type="image/svg+xml" href="{{ 'assets/atlas36-icon-v3.svg' | url }}?v=20260830-3">
+  <link rel="apple-touch-icon" href="{{ 'assets/atlas36-icon-v3.svg' | url }}?v=20260830-3">
+{% endblock %}

@@ -1,5 +1,4 @@
 ---
-title: Atlas36
 icon: lucide/compass
 hide:
   - toc
